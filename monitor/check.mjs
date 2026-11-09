@@ -179,7 +179,7 @@ async function main() {
   await mkdir(outDir, { recursive: true });
   await writeFile(path.join(outDir, 'alive.m3u'), aliveLines.join('\n') + '\n', 'utf8');
   await writeFile(path.join(outDir, 'status.json'), JSON.stringify(status, null, 2), 'utf8');
-  console.log(`有效 ${alive.length} / ${results.length} (${status.aliveRate}%)`);
+  console.log(`有效 ${alive.length} / ${merged.length} (${status.aliveRate}%)`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
