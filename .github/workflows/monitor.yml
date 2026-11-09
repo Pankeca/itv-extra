@@ -1,0 +1,39 @@
+name: monitor
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 UTC 02:00（北京时间 10:00）
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'monitor/check.mjs'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Probe streams
+        run: node monitor/check.mjs --out .
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alive.m3u status.json
+          if git diff --quiet --cached; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: 更新线路有效性 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
