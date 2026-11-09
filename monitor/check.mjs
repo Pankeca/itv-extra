@@ -1,16 +1,28 @@
 /**
  * IPTV 线路有效性探测
  * 用法：
- *   node monitor/check.mjs                        # 探测线上聚合列表
+ *   node monitor/check.mjs                        # 探测全部候选源（去重后逐条探测）
  *   node monitor/check.mjs --input ./list.m3u     # 探测本地文件
+ *   node monitor/check.mjs --input a.m3u,b.m3u    # 探测多个文件/URL（逗号分隔）
  *   node monitor/check.mjs --out ../out           # 指定输出目录
- * 输出：alive.m3u（只保留通过探测的线路）、status.json（每个频道的探测结果）
+ * 输出：alive.m3u（只保留通过探测的线路）、status.json（每条线路的探测结果）
  */
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 
-const DEFAULT_INPUT = 'https://itv3.940214.xyz/list.m3u?refresh=1';
+// 与 Worker 的源保持一致：必须覆盖“同一频道有多条候选线路”的所有上游，
+// Worker 才能在同一频道里挑出真正存活的线路（否则只测到已选中的那一条）。
+const DEFAULT_INPUTS = [
+  'https://itv2.940214.xyz/tv9402/interface.m3u',
+  './extra.m3u', // 仓库内文件，避免 raw.githubusercontent 在部分网络下不可达
+  'https://itv.940214.xyz/result.m3u',
+  'https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u',
+  'https://iptv-org.github.io/iptv/countries/cn.m3u',
+  'https://iptv-org.github.io/iptv/countries/hk.m3u',
+  'https://iptv-org.github.io/iptv/countries/tw.m3u',
+  'https://iptv-org.github.io/iptv/countries/mo.m3u',
+];
 const TIMEOUT_MS = 8000;
 const CONCURRENCY = 24;
 const MAX_BYTES = 4096; // 只读取开头，判断是不是有效播放列表
@@ -18,6 +30,15 @@ const MAX_BYTES = 4096; // 只读取开头，判断是不是有效播放列表
 function arg(name, fallback) {
   const i = process.argv.indexOf(`--${name}`);
   return i > -1 ? process.argv[i + 1] : fallback;
+}
+
+async function loadText(input) {
+  if (/^https?:\/\//.test(input)) {
+    const res = await fetch(input, { headers: { 'User-Agent': 'itv-monitor' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}: ${input}`);
+    return res.text();
+  }
+  return readFile(input, 'utf8');
 }
 
 function parseM3U(text) {
@@ -94,14 +115,27 @@ async function runPool(items, worker, limit) {
 }
 
 async function main() {
-  const input = arg('input', DEFAULT_INPUT);
+  const inputArg = arg('input', null);
+  const inputs = inputArg
+    ? inputArg.split(',').map(s => s.trim()).filter(Boolean)
+    : DEFAULT_INPUTS;
   const outDir = arg('out', '.');
-  const text = /^https?:\/\//.test(input)
-    ? await (await fetch(input, { headers: { 'User-Agent': 'itv-monitor' } })).text()
-    : await readFile(input, 'utf8');
 
-  const items = parseM3U(text);
-  console.log(`待探测条目: ${items.length}`);
+  const items = [];
+  const seenUrl = new Set();
+  for (const input of inputs) {
+    try {
+      const text = await loadText(input);
+      for (const it of parseM3U(text)) {
+        if (!/^https?:\/\//.test(it.url) || seenUrl.has(it.url)) continue;
+        seenUrl.add(it.url);
+        items.push(it);
+      }
+    } catch (e) {
+      console.warn(`跳过 ${input}: ${e.message}`);
+    }
+  }
+  console.log(`待探测条目: ${items.length}（源 ${inputs.length} 个，已按 URL 去重）`);
 
   const results = await runPool(items, probe, CONCURRENCY);
   const alive = results.filter(r => r.ok);
@@ -114,7 +148,7 @@ async function main() {
 
   const status = {
     generatedAt: new Date().toISOString(),
-    input,
+    inputs,
     total: results.length,
     alive: alive.length,
     dead: results.length - alive.length,
