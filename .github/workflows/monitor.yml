@@ -26,6 +26,22 @@ jobs:
       - name: Probe streams
         run: node monitor/check.mjs --out .
 
+      # GitHub 运行在境外机房，部分国内线路会被误判为不可用。
+      # 若本次存活率比上次低 15 个百分点以上，判定为探测节点地域偏差，放弃覆盖。
+      - name: Guard against vantage bias
+        run: |
+          node -e '
+            const fs = require("fs"), cp = require("child_process");
+            let old = 0;
+            try { old = JSON.parse(cp.execSync("git show HEAD:status.json", { encoding: "utf8" })).aliveRate || 0; } catch {}
+            const fresh = JSON.parse(fs.readFileSync("status.json", "utf8")).aliveRate || 0;
+            console.log(`上次存活率 ${old}% → 本次 ${fresh}%`);
+            if (old && fresh < old - 15) {
+              console.error("存活率骤降，判定为探测节点地域偏差，放弃本次结果");
+              process.exit(1);
+            }
+          '
+
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
