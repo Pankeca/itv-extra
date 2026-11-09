@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -23,8 +27,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Prepare previous snapshot
+        run: git show HEAD:status.json > /tmp/prev-status.json || true
+
       - name: Probe streams
-        run: node monitor/check.mjs --out .
+        run: node monitor/check.mjs --out . --merge /tmp/prev-status.json
 
       # GitHub 运行在境外机房，部分国内线路会被误判为不可用。
       # 若本次存活率比上次低 8 个百分点以上，判定为探测节点地域偏差，放弃覆盖。
@@ -51,5 +58,6 @@ jobs:
             echo "无变化，跳过提交"
           else
             git commit -m "chore: 更新线路有效性 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
             git push
           fi

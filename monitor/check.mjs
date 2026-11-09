@@ -138,22 +138,42 @@ async function main() {
   console.log(`待探测条目: ${items.length}（源 ${inputs.length} 个，已按 URL 去重）`);
 
   const results = await runPool(items, probe, CONCURRENCY);
-  const alive = results.filter(r => r.ok);
+  let merged = results;
+
+  // 部分源（如手机隧道）在境外机房会被 403，本次没测到的线路沿用上次结果，
+  // 避免一次抓取不全就把稳定的存活线路全部丢掉。
+  const mergePath = arg('merge', null);
+  if (mergePath) {
+    try {
+      const prev = JSON.parse(await readFile(mergePath, 'utf8'));
+      const probed = new Set(results.map(r => r.url));
+      const carried = (prev.results || [])
+        .filter(r => !probed.has(r.url))
+        .map(r => ({ ...r, stale: true }));
+      merged = results.concat(carried);
+      console.log(`沿用上次结果: ${carried.length} 条`);
+    } catch (e) {
+      console.warn(`未读取上次结果 ${mergePath}: ${e.message}`);
+    }
+  }
+
+  const alive = merged.filter(r => r.ok);
 
   const aliveLines = ['#EXTM3U'];
   for (const r of alive) {
-    aliveLines.push(items.find(i => i.url === r.url && i.name === r.name)?.extinf || `#EXTINF:-1,${r.name}`);
+    const extinf = items.find(i => i.url === r.url && i.name === r.name)?.extinf || `#EXTINF:-1,${r.name}`;
+    aliveLines.push(extinf);
     aliveLines.push(r.url);
   }
 
   const status = {
     generatedAt: new Date().toISOString(),
     inputs,
-    total: results.length,
+    total: merged.length,
     alive: alive.length,
-    dead: results.length - alive.length,
-    aliveRate: results.length ? +(alive.length / results.length * 100).toFixed(1) : 0,
-    results,
+    dead: merged.length - alive.length,
+    aliveRate: merged.length ? +(alive.length / merged.length * 100).toFixed(1) : 0,
+    results: merged,
   };
 
   await mkdir(outDir, { recursive: true });
