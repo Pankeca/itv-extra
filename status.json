@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:58:19.852Z",
+  "generatedAt": "2026-11-10T09:04:05.842Z",
   "inputs": [
     "https://itv2.940214.xyz/tv9402/interface.m3u",
     "./extra.m3u",
@@ -10,10 +10,10 @@
     "https://iptv-org.github.io/iptv/countries/tw.m3u",
     "https://iptv-org.github.io/iptv/countries/mo.m3u"
   ],
-  "total": 1905,
-  "alive": 1088,
-  "dead": 817,
-  "aliveRate": 57.1,
+  "total": 1971,
+  "alive": 1087,
+  "dead": 884,
+  "aliveRate": 55.1,
   "results": [
     {
       "name": "CCTV+ 1",
@@ -21,7 +21,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 526
+      "ms": 853
     },
     {
       "name": "CCTV+ 2",
@@ -29,7 +29,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 531
+      "ms": 604
     },
     {
       "name": "CCTV-1 综合",
@@ -37,7 +37,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 155
+      "ms": 133
     },
     {
       "name": "CCTV-10 科教",
@@ -45,7 +45,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 843
+      "ms": 137
     },
     {
       "name": "CCTV-11 戏曲",
@@ -53,7 +53,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 892
+      "ms": 144
     },
     {
       "name": "CCTV-12 社会与法",
@@ -61,7 +61,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 864
+      "ms": 134
     },
     {
       "name": "CCTV-13 新闻",
@@ -69,7 +69,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 155
+      "ms": 128
     },
     {
       "name": "CCTV-14 少儿",
@@ -77,7 +77,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 843
+      "ms": 134
     },
     {
       "name": "CCTV-15 音乐",
@@ -85,7 +85,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 866
+      "ms": 127
     },
     {
       "name": "CCTV-16 奥林匹克",
@@ -93,7 +93,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 86
+      "ms": 72
     },
     {
       "name": "CCTV-17 农业农村",
@@ -101,7 +101,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 155
+      "ms": 131
     },
     {
       "name": "CCTV-2 财经",
@@ -109,7 +109,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 903
+      "ms": 138
     },
     {
       "name": "CCTV-3 综艺",
@@ -117,7 +117,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 884
+      "ms": 130
     },
     {
       "name": "CCTV-7 国防军事",
@@ -125,7 +125,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 158
+      "ms": 121
     },
     {
       "name": "CCTV-8 电视剧",
@@ -133,7 +133,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 863
+      "ms": 991
     },
     {
       "name": "CCTV-8K 超高清",
@@ -141,7 +141,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 151
+      "ms": 126
     },
     {
       "name": "CCTV-9 纪录",
@@ -149,7 +149,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 568
+      "ms": 597
     },
     {
       "name": "CCTV-Billiards",
@@ -157,7 +157,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 927
+      "ms": 140
     },
     {
       "name": "CCTV-Culture of Quality SD",
@@ -165,7 +165,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 827
+      "ms": 142
     },
     {
       "name": "CCTV-Golf & Tennis",
@@ -173,7 +173,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 836
+      "ms": 141
     },
     {
       "name": "CCTV-Nostalgia Theater",
@@ -181,7 +181,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 835
+      "ms": 133
     },
     {
       "name": "CCTV-Storm Football",
@@ -189,7 +189,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 838
+      "ms": 136
     },
     {
       "name": "CCTV-Storm Music",
@@ -197,7 +197,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 992
+      "ms": 139
     },
     {
       "name": "CCTV-Storm Theater",
@@ -205,7 +205,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 851
+      "ms": 137
     },
     {
       "name": "CCTV-The First Theater",
@@ -213,7 +213,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 114
+      "ms": 104
     },
     {
       "name": "CCTV-Weapon & Technology",
@@ -221,7 +221,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 115
+      "ms": 98
     },
     {
       "name": "CCTV-Women's Fashion SD",
@@ -229,7 +229,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 109
+      "ms": 103
     },
     {
       "name": "湖南卫视",
@@ -237,7 +237,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1792
+      "ms": 1281
     },
     {
       "name": "湖南卫视 (线路2)",
@@ -245,7 +245,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 980
+      "ms": 897
     },
     {
       "name": "东南卫视",
@@ -253,7 +253,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2368
+      "ms": 1898
     },
     {
       "name": "人间卫视",
@@ -261,7 +261,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 477
+      "ms": 456
     },
     {
       "name": "内蒙古卫视",
@@ -269,7 +269,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2383
+      "ms": 1761
     },
     {
       "name": "广东卫视",
@@ -277,7 +277,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1575
+      "ms": 1379
     },
     {
       "name": "新疆卫视",
@@ -285,16 +285,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1634
+      "ms": 1622
     },
     {
       "name": "河北卫视",
       "url": "https://event.pull.hebtv.com/live/live101.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "fetch failed",
-      "ms": 3719
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 5951
     },
     {
       "name": "甘肃卫视",
@@ -302,7 +301,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 482
+      "ms": 436
     },
     {
       "name": "西藏卫视",
@@ -310,7 +309,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2637
+      "ms": 4549
     },
     {
       "name": "西藏藏语卫视",
@@ -318,7 +317,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4735
+      "ms": 5601
     },
     {
       "name": "黑龙江卫视",
@@ -327,7 +326,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 3475
+      "ms": 4947
     },
     {
       "name": "吉林乡村频道",
@@ -335,7 +334,7 @@
       "ok": false,
       "httpStatus": 567,
       "kind": "unknown",
-      "ms": 4403
+      "ms": 5843
     },
     {
       "name": "吉林乡村频道 (线路2)",
@@ -343,7 +342,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5358
+      "ms": 6232
     },
     {
       "name": "哈尔滨影视频道",
@@ -351,7 +350,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5084
+      "ms": 6503
     },
     {
       "name": "哈尔滨影视频道 (线路2)",
@@ -359,7 +358,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4579
+      "ms": 5953
     },
     {
       "name": "哈尔滨新闻综合频道",
@@ -367,7 +366,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5139
+      "ms": 6509
     },
     {
       "name": "哈尔滨新闻综合频道 (线路2)",
@@ -375,7 +374,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4786
+      "ms": 5935
     },
     {
       "name": "广州综合频道",
@@ -383,7 +382,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6007
+      "ms": 6774
     },
     {
       "name": "广州综合频道 (线路2)",
@@ -391,7 +390,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5869
+      "ms": 6853
     },
     {
       "name": "荆门新闻综合频道",
@@ -399,64 +398,71 @@
       "ok": false,
       "httpStatus": 0,
       "kind": "error",
-      "error": "fetch failed",
-      "ms": 5423
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "荆门新闻综合频道 (线路2)",
       "url": "http://stream.jmtv.com.cn/xwzh/sd/live.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5646
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "ABN China",
       "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5344
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 7999
     },
     {
       "name": "Angel TV Chinese",
       "url": "https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6037
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "Baicheng TV",
       "url": "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7161
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "Bread TV",
       "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5818
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "TV BRICS Chinese",
       "url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6575
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "VoA TV China",
       "url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5254
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "万荣综合",
@@ -464,7 +470,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 718
+      "ms": 733
     },
     {
       "name": "上虞新闻综合",
@@ -478,18 +484,20 @@
     {
       "name": "东丰综合",
       "url": "http://stream3.jlntv.cn:80/aac_dfgb/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5416
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 7999
     },
     {
       "name": "东莞新闻综合频道",
       "url": "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 7871
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "乐至综合",
@@ -497,39 +505,43 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 471
+      "ms": 493
     },
     {
       "name": "九台综合",
       "url": "http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6503
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "云和新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7507
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "云霄综合",
       "url": "https://live.zzyxxw.com:2443/live/xwzh.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6151
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "仁寿综合",
       "url": "https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6867
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "伊犁经济法制",
@@ -537,47 +549,52 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 548
+      "ms": 576
     },
     {
       "name": "余姚新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5081
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "余姚综合",
       "url": "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6639
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "余杭综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5572
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "六安公共",
       "url": "http://ls.qingting.fm/live/1794199.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6265
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "六安新闻综合",
       "url": "http://ls.qingting.fm/live/267.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6750
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "兰州文旅频道",
@@ -613,7 +630,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "剑阁综合",
@@ -622,7 +639,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "北京新闻",
@@ -630,7 +647,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1017
+      "ms": 549
     },
     {
       "name": "南京新闻综合",
@@ -639,7 +656,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "南宁影视娱乐",
@@ -657,7 +674,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "古县综合",
@@ -666,7 +683,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "句容生活",
@@ -684,7 +701,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 7999
+      "ms": 8000
     },
     {
       "name": "吉林影视频道",
@@ -693,7 +710,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8002
     },
     {
       "name": "吉林生活频道",
@@ -710,16 +727,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 300
+      "ms": 289
     },
     {
       "name": "哈尔滨生活",
       "url": "http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8000
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 228
     },
     {
       "name": "哈尔滨资讯",
@@ -737,7 +753,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "嘉兴新闻综合",
@@ -746,7 +762,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8002
     },
     {
       "name": "四川科教",
@@ -754,7 +770,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 730
+      "ms": 1461
     },
     {
       "name": "四平广播电视台",
@@ -772,7 +788,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "太谷新闻综合",
@@ -799,7 +815,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 7999
+      "ms": 8000
     },
     {
       "name": "安徽导视",
@@ -808,7 +824,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8002
     },
     {
       "name": "定襄综合",
@@ -817,7 +833,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "山东教育",
@@ -831,34 +847,38 @@
     {
       "name": "山东新闻",
       "url": "http://ls.qingting.fm/live/60180.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 287
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "山东生活",
       "url": "http://ls.qingting.fm/live/60260.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 464
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "嵊州新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 256
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "嵊泗综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 267
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 7999
     },
     {
       "name": "平泉综合",
@@ -867,15 +887,16 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "平湖新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 274
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8002
     },
     {
       "name": "平遥新闻综合",
@@ -892,7 +913,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 430
+      "ms": 408
     },
     {
       "name": "广元公共",
@@ -901,7 +922,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8002
     },
     {
       "name": "广元综合",
@@ -910,7 +931,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "广安公共",
@@ -937,7 +958,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "广西国际",
@@ -954,23 +975,25 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 460
+      "ms": 439
     },
     {
       "name": "庆元新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 280
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "庆元综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 225
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "康巴卫视",
@@ -978,15 +1001,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 504
+      "ms": 2492
     },
     {
       "name": "开化新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1543
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "张掖新闻综合",
@@ -995,7 +1019,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "德惠综合",
@@ -1004,7 +1028,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "怀仁综合",
@@ -1013,7 +1037,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 7999
     },
     {
       "name": "文山州公共",
@@ -1022,7 +1046,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "文山州新闻综合",
@@ -1036,10 +1060,11 @@
     {
       "name": "文成新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 228
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "新昌新闻综合",
@@ -1053,10 +1078,11 @@
     {
       "name": "新昌生活",
       "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 258
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "新沂生活",
@@ -1064,8 +1090,8 @@
       "ok": false,
       "httpStatus": 0,
       "kind": "error",
-      "error": "fetch failed",
-      "ms": 7762
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "新疆电视台2套",
@@ -1073,7 +1099,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1606
+      "ms": 1414
     },
     {
       "name": "新疆电视台3套",
@@ -1081,15 +1107,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 548
+      "ms": 557
     },
     {
       "name": "新野综合",
       "url": "http://tvpull.dxhmt.cn:9081/tv/11329-1.m3u8",
       "ok": false,
-      "httpStatus": 403,
-      "kind": "unknown",
-      "ms": 7232
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "新闻综合",
@@ -1098,7 +1125,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 7999
+      "ms": 8001
     },
     {
       "name": "旺苍新闻综合",
@@ -1121,10 +1148,11 @@
     {
       "name": "晋江电视台",
       "url": "http://stream.jinjiang.tv/1/sd/live.m3u8?zfud",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7912
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "普陀电视台",
@@ -1151,7 +1179,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "松潘新闻综合",
@@ -1159,64 +1187,71 @@
       "ok": false,
       "httpStatus": 0,
       "kind": "error",
-      "error": "fetch failed",
-      "ms": 6147
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "松阳综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 236
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "柳河综合",
       "url": "http://stream3.jlntv.cn:80/aac_lhgb/sd/live.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6859
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "桦甸综合",
       "url": "http://stream9.jlntv.cn:80/aac_huadiangb/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5975
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "梅河口综合",
       "url": "http://stream3.jlntv.cn:80/aac_mhkgb/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5983
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "楚雄新闻频道",
       "url": "http://hwapi.yntv.net/ew265l/848y54.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6472
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "武义新闻综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 309
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "武汉一台新闻综合",
       "url": "https://ls.qingting.fm/live/20198/64k.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5895
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "武进生活",
@@ -1233,7 +1268,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6036
+      "ms": 7721
     },
     {
       "name": "永城综合",
@@ -1241,7 +1276,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 5651
+      "ms": 7352
     },
     {
       "name": "江夏新闻综合",
@@ -1249,15 +1284,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 713
+      "ms": 1356
     },
     {
       "name": "汪清综合",
       "url": "http://stream5.jlntv.cn/wq/sd/live.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5383
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "汶川新闻综合",
@@ -1265,15 +1301,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4999
+      "ms": 7841
     },
     {
       "name": "汾西综合",
       "url": "https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5516
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "沐川综合",
@@ -1281,24 +1318,26 @@
       "ok": false,
       "httpStatus": 0,
       "kind": "error",
-      "error": "fetch failed",
-      "ms": 3857
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "河北农民",
       "url": "https://ls.qingting.fm/live/1650/64k.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 3935
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "河北都市",
       "url": "https://radio.pull.hebtv.com/live/hebnczx.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4132
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "泸县新闻综合",
@@ -1306,8 +1345,8 @@
       "ok": false,
       "httpStatus": 0,
       "kind": "error",
-      "error": "fetch failed",
-      "ms": 4671
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "洞头综合",
@@ -1315,31 +1354,34 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 277
+      "ms": 7696
     },
     {
       "name": "浙江休闲台",
       "url": "http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4261
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "浙江公共新闻",
       "url": "http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4014
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "浙江国际",
       "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4484
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "浙江少儿",
@@ -1347,7 +1389,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4282
+      "ms": 7776
     },
     {
       "name": "浙江教科",
@@ -1355,7 +1397,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3752
+      "ms": 7814
     },
     {
       "name": "浙江教科影视",
@@ -1363,7 +1405,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3780
+      "ms": 7888
     },
     {
       "name": "浙江教育",
@@ -1371,7 +1413,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3562
+      "ms": 7865
     },
     {
       "name": "浙江数码时代",
@@ -1379,7 +1421,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3510
+      "ms": 7663
     },
     {
       "name": "浙江新闻",
@@ -1387,7 +1429,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3319
+      "ms": 7356
     },
     {
       "name": "浙江民生",
@@ -1395,23 +1437,24 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3506
+      "ms": 6895
     },
     {
       "name": "浙江民生休闲",
       "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 3563
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "浙江生活",
       "url": "http://ls.qingting.fm/live/1099.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 3186
+      "ok": false,
+      "httpStatus": 404,
+      "kind": "unknown",
+      "ms": 4899
     },
     {
       "name": "浙江留学",
@@ -1419,7 +1462,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3558
+      "ms": 4258
     },
     {
       "name": "浙江经济生活",
@@ -1427,7 +1470,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3065
+      "ms": 4026
     },
     {
       "name": "浙江经视",
@@ -1435,7 +1478,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3194
+      "ms": 3969
     },
     {
       "name": "浙江遂昌",
@@ -1443,7 +1486,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 289
+      "ms": 3824
     },
     {
       "name": "浙江钱江都市",
@@ -1451,7 +1494,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3832
+      "ms": 3221
     },
     {
       "name": "浙江钱江频道",
@@ -1459,7 +1502,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3151
+      "ms": 3432
     },
     {
       "name": "海南新闻",
@@ -1467,7 +1510,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3295
+      "ms": 3264
     },
     {
       "name": "海宁新闻综合",
@@ -1475,7 +1518,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6598
+      "ms": 4219
     },
     {
       "name": "清河经济综艺",
@@ -1483,7 +1526,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3298
+      "ms": 3029
     },
     {
       "name": "湖南经济频道",
@@ -1491,7 +1534,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2833
+      "ms": 2796
     },
     {
       "name": "湖州公共民生",
@@ -1499,7 +1542,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2874
+      "ms": 2533
     },
     {
       "name": "湖州文化娱乐",
@@ -1507,7 +1550,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2387
+      "ms": 2714
     },
     {
       "name": "湖州新闻综合",
@@ -1515,7 +1558,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2280
+      "ms": 1879
     },
     {
       "name": "潮州公共频道",
@@ -1523,7 +1566,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 456
+      "ms": 417
     },
     {
       "name": "灌阳新闻综合",
@@ -1531,7 +1574,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 497
+      "ms": 2135
     },
     {
       "name": "烟台公共",
@@ -1549,7 +1592,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "烟台经济科技",
@@ -1566,7 +1609,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 577
+      "ms": 1260
     },
     {
       "name": "璧山综合",
@@ -1574,7 +1617,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1488
+      "ms": 737
     },
     {
       "name": "甘南县综合",
@@ -1582,7 +1625,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3917
+      "ms": 2850
     },
     {
       "name": "甘孜综合",
@@ -1591,7 +1634,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "甘肃经济",
@@ -1599,7 +1642,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4060
+      "ms": 2818
     },
     {
       "name": "甘肃都市",
@@ -1607,7 +1650,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4561
+      "ms": 2613
     },
     {
       "name": "番禺综合",
@@ -1624,7 +1667,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3550
+      "ms": 2782
     },
     {
       "name": "磐石综合",
@@ -1632,7 +1675,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 295
+      "ms": 2887
     },
     {
       "name": "祁门综合",
@@ -1640,7 +1683,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5460
+      "ms": 3492
     },
     {
       "name": "福州少儿",
@@ -1648,7 +1691,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5610
+      "ms": 4788
     },
     {
       "name": "福州生活",
@@ -1656,7 +1699,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 7033
+      "ms": 5134
     },
     {
       "name": "福建新闻",
@@ -1664,7 +1707,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4275
+      "ms": 3061
     },
     {
       "name": "福建经济",
@@ -1672,7 +1715,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4279
+      "ms": 3176
     },
     {
       "name": "绍兴公共",
@@ -1681,7 +1724,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "绍兴电视台公共",
@@ -1690,7 +1733,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "缙云新闻综合",
@@ -1698,7 +1741,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 276
+      "ms": 2955
     },
     {
       "name": "缙云综合",
@@ -1706,7 +1749,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4067
+      "ms": 252
     },
     {
       "name": "舒兰新闻综合",
@@ -1714,7 +1757,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5011
+      "ms": 2975
     },
     {
       "name": "苍南新闻综合",
@@ -1722,7 +1765,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 255
+      "ms": 2956
     },
     {
       "name": "苏州文化生活",
@@ -1730,7 +1773,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4559
+      "ms": 3725
     },
     {
       "name": "苏州新闻综合",
@@ -1738,7 +1781,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4689
+      "ms": 3044
     },
     {
       "name": "苏州生活资讯",
@@ -1746,7 +1789,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4749
+      "ms": 3716
     },
     {
       "name": "苏州社会经济",
@@ -1754,7 +1797,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4814
+      "ms": 2849
     },
     {
       "name": "荥经综合",
@@ -1762,7 +1805,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5809
+      "ms": 2665
     },
     {
       "name": "荥阳综合",
@@ -1770,32 +1813,33 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 2082
+      "ms": 1557
     },
     {
       "name": "营山电视台",
       "url": "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "fetch failed",
-      "ms": 2190
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 253
     },
     {
       "name": "萧山新闻综合",
       "url": "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 226
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "萧山生活",
       "url": "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 2325
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "萧山综合",
@@ -1803,7 +1847,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 237
+      "ms": 243
     },
     {
       "name": "衡水公共",
@@ -1811,7 +1855,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1715
+      "ms": 949
     },
     {
       "name": "衡阳新闻综合",
@@ -1819,7 +1863,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2368
+      "ms": 1707
     },
     {
       "name": "衢江新闻综合",
@@ -1827,23 +1871,25 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 285
+      "ms": 1011
     },
     {
       "name": "西宁新闻综合",
       "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 2651
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 1207
     },
     {
       "name": "诸暨新闻综合",
       "url": "https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 262
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "象山新闻综合",
@@ -1851,7 +1897,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 279
+      "ms": 271
     },
     {
       "name": "象山综合",
@@ -1859,7 +1905,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1628
+      "ms": 1112
     },
     {
       "name": "赤峰新闻综合频道",
@@ -1867,7 +1913,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1958
+      "ms": 2110
     },
     {
       "name": "辉南新闻综合",
@@ -1875,15 +1921,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1920
+      "ms": 1607
     },
     {
       "name": "辽宁都市",
       "url": "https://ls.qingting.fm/live/1099/64k.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1489
+      "ok": false,
+      "httpStatus": 404,
+      "kind": "unknown",
+      "ms": 2752
     },
     {
       "name": "通化县综合",
@@ -1891,7 +1937,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1443
+      "ms": 294
     },
     {
       "name": "通化广播电视台",
@@ -1899,7 +1945,7 @@
       "ok": false,
       "httpStatus": 567,
       "kind": "unknown",
-      "ms": 1362
+      "ms": 1875
     },
     {
       "name": "遂昌综合",
@@ -1907,7 +1953,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 268
+      "ms": 259
     },
     {
       "name": "邯郸公共频道",
@@ -1915,7 +1961,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1615
+      "ms": 1661
     },
     {
       "name": "邯郸新闻",
@@ -1923,7 +1969,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1449
+      "ms": 1524
     },
     {
       "name": "邯郸科技教育",
@@ -1931,7 +1977,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1377
+      "ms": 1504
     },
     {
       "name": "都市剧场",
@@ -1939,7 +1985,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1010
+      "ms": 548
     },
     {
       "name": "金川新闻综合",
@@ -1947,7 +1993,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 767
+      "ms": 753
     },
     {
       "name": "钱江都市",
@@ -1955,7 +2001,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2360
+      "ms": 1201
     },
     {
       "name": "铜梁综合",
@@ -1963,7 +2009,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 713
+      "ms": 749
     },
     {
       "name": "铜陵新闻综合",
@@ -1971,7 +2017,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 559
+      "ms": 1166
     },
     {
       "name": "镇江新闻综合",
@@ -1979,7 +2025,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1372
+      "ms": 1717
     },
     {
       "name": "长子综合",
@@ -1987,7 +2033,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1204
+      "ms": 1256
     },
     {
       "name": "长沙新闻综合",
@@ -1995,7 +2041,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 512
+      "ms": 491
     },
     {
       "name": "长白山电视台",
@@ -2003,7 +2049,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 310
+      "ms": 289
     },
     {
       "name": "陕西公共",
@@ -2011,7 +2057,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 673
+      "ms": 699
     },
     {
       "name": "雅安新闻综合",
@@ -2019,7 +2065,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3095
+      "ms": 2512
     },
     {
       "name": "青岛经济生活",
@@ -2027,7 +2073,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1822
+      "ms": 1920
     },
     {
       "name": "青岛都市",
@@ -2035,7 +2081,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1611
+      "ms": 1772
     },
     {
       "name": "青川综合",
@@ -2043,7 +2089,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1561
+      "ms": 1836
     },
     {
       "name": "青田电视台",
@@ -2051,7 +2097,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 254
+      "ms": 262
     },
     {
       "name": "靖宇综合",
@@ -2059,7 +2105,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1649
+      "ms": 1988
     },
     {
       "name": "靖江新闻综合",
@@ -2067,7 +2113,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2234
+      "ms": 523
     },
     {
       "name": "韩国EBS少儿",
@@ -2075,7 +2121,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2185
+      "ms": 2181
     },
     {
       "name": "黑龙江文体",
@@ -2084,7 +2130,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 2227
+      "ms": 1621
     },
     {
       "name": "黑龙江新闻",
@@ -2092,7 +2138,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 274
+      "ms": 297
     },
     {
       "name": "黑龙江都市",
@@ -2101,7 +2147,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 2178
+      "ms": 1507
     },
     {
       "name": "龙井综合",
@@ -2109,7 +2155,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2551
+      "ms": 1952
     },
     {
       "name": "龙泉新闻综合",
@@ -2117,7 +2163,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 289
+      "ms": 308
     },
     {
       "name": "龙游新闻综合",
@@ -2125,15 +2171,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 236
+      "ms": 219
     },
     {
       "name": "龙游生活娱乐",
       "url": "https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 244
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "1987年春晚",
@@ -2141,7 +2188,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2658
+      "ms": 1211
     },
     {
       "name": "1988年春晚",
@@ -2149,7 +2196,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2653
+      "ms": 1312
     },
     {
       "name": "1989年春晚",
@@ -2157,7 +2204,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2684
+      "ms": 1320
     },
     {
       "name": "1993年春晚",
@@ -2165,7 +2212,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2996
+      "ms": 1452
     },
     {
       "name": "1994年春晚",
@@ -2173,7 +2220,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2934
+      "ms": 1128
     },
     {
       "name": "1995年春晚",
@@ -2181,7 +2228,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3180
+      "ms": 1085
     },
     {
       "name": "1996年春晚",
@@ -2189,7 +2236,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3177
+      "ms": 1069
     },
     {
       "name": "2000年春晚",
@@ -2197,7 +2244,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3360
+      "ms": 988
     },
     {
       "name": "2001年春晚",
@@ -2205,7 +2252,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3305
+      "ms": 846
     },
     {
       "name": "2002年春晚",
@@ -2213,7 +2260,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3308
+      "ms": 933
     },
     {
       "name": "2003年春晚",
@@ -2221,7 +2268,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3148
+      "ms": 912
     },
     {
       "name": "2004年春晚",
@@ -2229,7 +2276,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2955
+      "ms": 914
     },
     {
       "name": "2005年春晚",
@@ -2237,7 +2284,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2882
+      "ms": 896
     },
     {
       "name": "2006年春晚",
@@ -2245,7 +2292,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2732
+      "ms": 845
     },
     {
       "name": "2007年春晚",
@@ -2253,7 +2300,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2629
+      "ms": 993
     },
     {
       "name": "2009年春晚",
@@ -2261,7 +2308,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2592
+      "ms": 876
     },
     {
       "name": "2010年春晚",
@@ -2269,7 +2316,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2453
+      "ms": 871
     },
     {
       "name": "2013年春晚",
@@ -2277,7 +2324,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2445
+      "ms": 862
     },
     {
       "name": "2014年春晚",
@@ -2285,7 +2332,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1882
+      "ms": 795
     },
     {
       "name": "2018年春晚",
@@ -2293,7 +2340,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1834
+      "ms": 679
     },
     {
       "name": "2024年春晚",
@@ -2301,7 +2348,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3203
+      "ms": 2379
     },
     {
       "name": "2025年春晚",
@@ -2309,7 +2356,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 3874
+      "ms": 2798
     },
     {
       "name": "2026-11-07 12:26:35",
@@ -2317,7 +2364,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3000
+      "ms": 2240
     },
     {
       "name": "CGTN纪录",
@@ -2325,7 +2372,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2886
+      "ms": 2799
     },
     {
       "name": "CGTN西语",
@@ -2333,7 +2380,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2674
+      "ms": 1795
     },
     {
       "name": "Yichang Sanxia General Channel",
@@ -2341,7 +2388,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3957
+      "ms": 2633
     },
     {
       "name": "Yichang Sanxia Travel & Life Channel",
@@ -2349,7 +2396,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3893
+      "ms": 5363
     },
     {
       "name": "Zhejiang International Channel",
@@ -2357,16 +2404,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 244
+      "ms": 204
     },
     {
       "name": "七龙珠",
       "url": "https://live.metshop.top/huya/11601966",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8001
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 4803
     },
     {
       "name": "万州三峡移民",
@@ -2375,7 +2421,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "上虞文化影院",
@@ -2383,7 +2429,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 298
+      "ms": 240
     },
     {
       "name": "上虞新商都",
@@ -2391,16 +2437,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 246
+      "ms": 2223
     },
     {
       "name": "中华小当家",
       "url": "https://live.metshop.top/huya/11342413",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8000
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 4673
     },
     {
       "name": "中国蓝新闻",
@@ -2408,7 +2453,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3701
+      "ms": 2422
     },
     {
       "name": "之江纪录",
@@ -2416,7 +2461,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 309
+      "ms": 204
     },
     {
       "name": "余姚姚江文化",
@@ -2424,7 +2469,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 276
+      "ms": 230
     },
     {
       "name": "余杭未来E",
@@ -2432,7 +2477,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 256
+      "ms": 2069
     },
     {
       "name": "倩女幽魂人间道",
@@ -2440,7 +2485,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3912
+      "ms": 2595
     },
     {
       "name": "倩女幽魂妖魔道",
@@ -2448,7 +2493,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3899
+      "ms": 2592
     },
     {
       "name": "倩女幽魂道道道",
@@ -2456,7 +2501,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3872
+      "ms": 2586
     },
     {
       "name": "句容党建",
@@ -2464,7 +2509,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4610
+      "ms": 2960
     },
     {
       "name": "句容影院",
@@ -2472,7 +2517,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4595
+      "ms": 3004
     },
     {
       "name": "固镇新闻",
@@ -2480,7 +2525,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4606
+      "ms": 3659
     },
     {
       "name": "奎屯哈萨克语",
@@ -2496,7 +2541,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 6515
+      "ms": 3750
     },
     {
       "name": "常熟民生",
@@ -2513,7 +2558,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 259
+      "ms": 943
     },
     {
       "name": "延边2",
@@ -2521,7 +2566,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 959
+      "ms": 1709
     },
     {
       "name": "开化国家公园",
@@ -2529,7 +2574,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5707
+      "ms": 2288
     },
     {
       "name": "我不是药神",
@@ -2537,7 +2582,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 7287
+      "ms": 3221
     },
     {
       "name": "拆弹专家1",
@@ -2545,7 +2590,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 7451
+      "ms": 3124
     },
     {
       "name": "拆弹专家2",
@@ -2553,7 +2598,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 7149
+      "ms": 3057
     },
     {
       "name": "敦化一套",
@@ -2561,16 +2606,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 7953
+      "ms": 2835
     },
     {
       "name": "新沂新闻",
       "url": "http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd\"",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "fetch failed",
-      "ms": 5184
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2005
     },
     {
       "name": "梨园",
@@ -2578,7 +2622,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6374
+      "ms": 2859
     },
     {
       "name": "武进新闻",
@@ -2586,7 +2630,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5974
+      "ms": 2740
     },
     {
       "name": "海绵宝宝",
@@ -2594,7 +2638,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 6125
+      "ms": 1040
     },
     {
       "name": "渭源新闻",
@@ -2602,7 +2646,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5387
+      "ms": 2323
     },
     {
       "name": "滦平新闻",
@@ -2610,16 +2654,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5728
+      "ms": 3175
     },
     {
       "name": "电影嫣然影厅",
       "url": "http://live.metshop.top/huya/11601977?cdn=alicdn",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8001
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 3578
     },
     {
       "name": "电影战争片",
@@ -2627,7 +2670,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 5883
+      "ms": 2258
     },
     {
       "name": "电影搞笑喜剧",
@@ -2635,7 +2678,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 6356
+      "ms": 3118
     },
     {
       "name": "电影梁家辉",
@@ -2643,7 +2686,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 7017
+      "ms": 2738
     },
     {
       "name": "电影犯罪片",
@@ -2651,7 +2694,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 7164
+      "ms": 2254
     },
     {
       "name": "电影蜘蛛侠",
@@ -2659,7 +2702,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 6067
+      "ms": 1652
     },
     {
       "name": "电影谍战",
@@ -2667,7 +2710,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 5381
+      "ms": 2084
     },
     {
       "name": "电影谍战片",
@@ -2675,7 +2718,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 4998
+      "ms": 1213
     },
     {
       "name": "电影贺岁",
@@ -2683,7 +2726,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3682
+      "ms": 1624
     },
     {
       "name": "电影高分动作",
@@ -2691,7 +2734,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 5207
+      "ms": 1351
     },
     {
       "name": "笑傲江湖",
@@ -2699,7 +2742,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2520
+      "ms": 1534
     },
     {
       "name": "笑看风云",
@@ -2707,7 +2750,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1777
+      "ms": 340
     },
     {
       "name": "第一财经",
@@ -2715,7 +2758,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2139
+      "ms": 106
     },
     {
       "name": "精品体育",
@@ -2723,7 +2766,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 921
+      "ms": 620
     },
     {
       "name": "纬来体育",
@@ -2731,7 +2774,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 909
+      "ms": 611
     },
     {
       "name": "罪犯电影",
@@ -2739,7 +2782,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3756
+      "ms": 931
     },
     {
       "name": "西游记2",
@@ -2747,7 +2790,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2598
+      "ms": 1143
     },
     {
       "name": "让子弹飞",
@@ -2755,7 +2798,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 3044
+      "ms": 2426
     },
     {
       "name": "谍战电影",
@@ -2763,7 +2806,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2257
+      "ms": 825
     },
     {
       "name": "贺岁电影",
@@ -2771,7 +2814,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2105
+      "ms": 1052
     },
     {
       "name": "足球频道",
@@ -2779,7 +2822,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 750
+      "ms": 504
     },
     {
       "name": "野蛮亲家",
@@ -2787,7 +2830,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3350
+      "ms": 1198
     },
     {
       "name": "金川乡村",
@@ -2795,7 +2838,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1171
+      "ms": 1038
     },
     {
       "name": "金庸武侠",
@@ -2803,7 +2846,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1248
+      "ms": 657
     },
     {
       "name": "金枝欲孽",
@@ -2811,7 +2854,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1619
+      "ms": 960
     },
     {
       "name": "鉴证实录",
@@ -2819,7 +2862,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3500
+      "ms": 1963
     },
     {
       "name": "长影频道",
@@ -2827,7 +2870,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1761
+      "ms": 3698
     },
     {
       "name": "长白朝语",
@@ -2835,7 +2878,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2208
+      "ms": 1510
     },
     {
       "name": "陀枪师姐",
@@ -2843,7 +2886,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3276
+      "ms": 2442
     },
     {
       "name": "音乐欣赏",
@@ -2851,7 +2894,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 337
+      "ms": 318
     },
     {
       "name": "音乐现场",
@@ -2859,7 +2902,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2663
+      "ms": 1561
     },
     {
       "name": "黄渤电影",
@@ -2867,15 +2910,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3277
+      "ms": 1959
     },
     {
-      "name": "CCTV-4",
-      "url": "http://74.91.26.218:82/live/cctv4hd.m3u8",
+      "name": "2026-11-09 21:19:45",
+      "url": "http://120.76.248.139/live/bfgd/4200000246.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1037
+      "ms": 429
+    },
+    {
+      "name": "CCTV-8",
+      "url": "http://gmxw.7766.org:808/hls/96/index.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2036
     },
     {
       "name": "CCTV-13",
@@ -2883,24 +2934,39 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3174
+      "ms": 218
     },
     {
-      "name": "CCTV-16",
-      "url": "http://gmxw.7766.org:808/hls/169/index.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8000
-    },
-    {
-      "name": "山西卫视",
-      "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+      "name": "CCTV-15",
+      "url": "http://120.76.248.139/live/bfgd/4200000133.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 550
+      "ms": 430
+    },
+    {
+      "name": "CCTV-17",
+      "url": "http://120.76.248.139/live/bfgd/4200000204.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 416
+    },
+    {
+      "name": "北京卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000083.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 431
+    },
+    {
+      "name": "河北卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 417
     },
     {
       "name": "内蒙古卫视",
@@ -2908,23 +2974,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2392
+      "ms": 2295
     },
     {
-      "name": "浙江卫视",
-      "url": "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+      "name": "黑龙江卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000095.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2550
-    },
-    {
-      "name": "浙江卫视",
-      "url": "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4036
+      "ms": 416
     },
     {
       "name": "浙江卫视",
@@ -2932,7 +2990,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3715
+      "ms": 1919
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 223
+    },
+    {
+      "name": "浙江卫视",
+      "url": "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1692
     },
     {
       "name": "浙江卫视",
@@ -2940,15 +3014,31 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4937
+      "ms": 1815
     },
     {
-      "name": "江西卫视",
-      "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "name": "东南卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000483.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 358
+      "ms": 422
+    },
+    {
+      "name": "山东卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000099.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 434
+    },
+    {
+      "name": "湖北卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000102.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 324
     },
     {
       "name": "湖南卫视",
@@ -2956,7 +3046,63 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3083
+      "ms": 2505
+    },
+    {
+      "name": "广东卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000092.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 217
+    },
+    {
+      "name": "广西卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000116.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 207
+    },
+    {
+      "name": "海南卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000473.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 209
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000482.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 421
+    },
+    {
+      "name": "甘肃卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000119.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 353
+    },
+    {
+      "name": "深圳卫视",
+      "url": "http://120.76.248.139/live/bfgd/4200000100.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 206
+    },
+    {
+      "name": "深圳卫视",
+      "url": "http://gmxw.7766.org:808/hls/45/index.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 5960
     },
     {
       "name": "延边卫视",
@@ -2964,7 +3110,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4235
+      "ms": 4583
     },
     {
       "name": "延边卫视",
@@ -2972,24 +3118,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4155
-    },
-    {
-      "name": "大湾区卫视",
-      "url": "http://222.128.55.152:9080/live/dwq.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "fetch failed",
-      "ms": 226
-    },
-    {
-      "name": "台视新闻",
-      "url": "https://live.wcetv.com/hls/master-ttvnews.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4159
+      "ms": 4645
     },
     {
       "name": "CCTV1",
@@ -2997,7 +3126,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6218
+      "ms": 5812
     },
     {
       "name": "CCTV2",
@@ -3005,7 +3134,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6631
+      "ms": 5557
     },
     {
       "name": "CCTV3",
@@ -3013,7 +3142,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6107
+      "ms": 5697
     },
     {
       "name": "CCTV4",
@@ -3021,7 +3150,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6989
+      "ms": 5827
+    },
+    {
+      "name": "CCTV4K",
+      "url": "http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 5633
     },
     {
       "name": "CCTV4欧洲",
@@ -3029,7 +3166,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6495
+      "ms": 5588
     },
     {
       "name": "CCTV4美洲",
@@ -3037,23 +3174,31 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 5756
+      "ms": 5419
+    },
+    {
+      "name": "CCTV-4 中文国际",
+      "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1794340800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2523e5968dada4cfa2f70465f5f3bf46&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 4953
     },
     {
       "name": "CCTV-4K 高清",
-      "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794247200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-179b646e71bcc769d97cf7f898ac72a3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+      "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794340800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-1d01c3d6aca6e7a092223cedb227ab1c&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4758
+      "ms": 5588
     },
     {
       "name": "CCTV5",
-      "url": "http://gmxw.7766.org:808/hls/93/index.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6147
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv5",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 4847
     },
     {
       "name": "CCTV5+",
@@ -3061,7 +3206,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 5807
+      "ms": 4606
     },
     {
       "name": "CCTV6",
@@ -3069,7 +3214,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 4889
+      "ms": 4745
     },
     {
       "name": "CCTV7",
@@ -3077,7 +3222,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 6228
+      "ms": 4685
     },
     {
       "name": "CCTV8",
@@ -3085,7 +3230,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 472
+      "ms": 456
     },
     {
       "name": "CCTV9",
@@ -3093,15 +3238,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 5389
+      "ms": 4194
     },
     {
       "name": "CCTV-9 纪录",
-      "url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ea2e9e8509a3d289d9c083fd82d2b8a7",
+      "url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=714c0084c4a8077b1d87040b876d07c5",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4049
+      "ms": 5157
     },
     {
       "name": "CCTV10",
@@ -3109,7 +3254,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 4206
+      "ms": 4392
     },
     {
       "name": "CCTV11",
@@ -3117,15 +3262,23 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 4980
+      "ms": 4626
     },
     {
       "name": "CCTV12",
-      "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 236
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv12",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 4616
+    },
+    {
+      "name": "CCTV13",
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv13",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 4183
     },
     {
       "name": "CCTV14",
@@ -3133,23 +3286,31 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 3919
+      "ms": 3118
     },
     {
       "name": "CCTV15",
-      "url": "http://gmxw.7766.org:808/hls/102/index.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 3063
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv15",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 3027
+    },
+    {
+      "name": "CCTV16",
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv16",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 1393
     },
     {
       "name": "CCTV17",
-      "url": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 3527
+      "url": "http://t.061899.xyz/tl/tl.php?id=cctv17",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 1208
     },
     {
       "name": "CCTV中学生",
@@ -3157,7 +3318,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 2977
+      "ms": 35
+    },
+    {
+      "name": "CCTV发现之旅",
+      "url": "http://t.061899.xyz/tl/tl.php?id=fxzl",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 35
     },
     {
       "name": "CCTV怀旧剧场",
@@ -3165,7 +3334,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2550
+      "ms": 2383
     },
     {
       "name": "CCTV文化精品",
@@ -3173,15 +3342,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2540
+      "ms": 2392
     },
     {
       "name": "CCTV第一剧场",
-      "url": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "url": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2441
+      "ms": 2355
     },
     {
       "name": "CCTV老故事",
@@ -3189,7 +3358,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 3304
+      "ms": 35
     },
     {
       "name": "CGTN",
@@ -3197,7 +3366,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 596
+      "ms": 740
     },
     {
       "name": "CGTN俄语",
@@ -3205,7 +3374,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 550
+      "ms": 729
     },
     {
       "name": "CGTN法语",
@@ -3213,7 +3382,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 455
+      "ms": 724
     },
     {
       "name": "CGTN纪录",
@@ -3221,15 +3390,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 62
+      "ms": 724
     },
     {
-      "name": "CGTN阿语",
-      "url": "https://0472.org/hls/cgtna.m3u8",
+      "name": "CGTN西语",
+      "url": "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 60
+      "ms": 1007
     },
     {
       "name": "CHC动作电影",
@@ -3237,7 +3406,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 224
+      "ms": 34
     },
     {
       "name": "CHC家庭影院",
@@ -3245,7 +3414,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 30
+      "ms": 34
     },
     {
       "name": "七彩戏剧",
@@ -3261,7 +3430,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 25
+      "ms": 21
     },
     {
       "name": "上海新闻综合",
@@ -3269,7 +3438,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 30
+      "ms": 36
+    },
+    {
+      "name": "上海第一财经",
+      "url": "http://t.061899.xyz/tl/tl.php?id=dycj",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 36
     },
     {
       "name": "上视纪实人文",
@@ -3277,7 +3454,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 996
+      "ms": 22
+    },
+    {
+      "name": "东南卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=dnws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 21
     },
     {
       "name": "东方影视",
@@ -3285,7 +3470,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 857
+      "ms": 32
     },
     {
       "name": "乐游",
@@ -3293,15 +3478,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 28
-    },
-    {
-      "name": "云南卫视",
-      "url": "http://t.061899.xyz/tl/tl.php?id=ynws",
-      "ok": false,
-      "httpStatus": 429,
-      "kind": "unknown",
-      "ms": 28
+      "ms": 35
     },
     {
       "name": "优漫卡通",
@@ -3309,7 +3486,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 24
+      "ms": 34
     },
     {
       "name": "兵器科技",
@@ -3317,7 +3494,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 321
+      "ms": 2173
     },
     {
       "name": "劲爆体育",
@@ -3325,7 +3502,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 30
+      "ms": 23
     },
     {
       "name": "吉林卫视",
@@ -3333,7 +3510,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 26
+      "ms": 21
     },
     {
       "name": "大湾区卫视",
@@ -3341,7 +3518,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 432
+      "ms": 35
     },
     {
       "name": "山东卫视",
@@ -3349,7 +3526,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 26
+      "ms": 57
     },
     {
       "name": "广西卫视",
@@ -3357,7 +3534,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 11
+      "ms": 26
     },
     {
       "name": "欢笑剧场",
@@ -3365,7 +3542,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 30
+      "ms": 51
     },
     {
       "name": "江苏卫视",
@@ -3373,7 +3550,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 24
+      "ms": 37
     },
     {
       "name": "河南卫视",
@@ -3381,7 +3558,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 29
+      "ms": 34
     },
     {
       "name": "法治天地",
@@ -3389,7 +3566,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 31
+      "ms": 33
     },
     {
       "name": "游戏风云",
@@ -3397,7 +3574,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 20
+      "ms": 182
     },
     {
       "name": "湖北卫视",
@@ -3405,7 +3582,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 12
+      "ms": 36
+    },
+    {
+      "name": "湖南卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=hunws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 35
     },
     {
       "name": "熊猫直播",
@@ -3413,7 +3598,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1980
+      "ms": 1290
+    },
+    {
+      "name": "甘肃卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=gsws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 27
+    },
+    {
+      "name": "贵州卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=gzws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 36
     },
     {
       "name": "重庆卫视",
@@ -3421,7 +3622,15 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 15
+      "ms": 38
+    },
+    {
+      "name": "陕西卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=sxws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 36
     },
     {
       "name": "青海卫视",
@@ -3429,7 +3638,7 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 25
+      "ms": 35
     },
     {
       "name": "风云剧场",
@@ -3437,7 +3646,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 765
+      "ms": 2078
     },
     {
       "name": "魅力足球",
@@ -3445,33 +3654,31 @@
       "ok": false,
       "httpStatus": 429,
       "kind": "unknown",
-      "ms": 14
+      "ms": 35
     },
     {
       "name": "三沙卫视",
       "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=ssws",
-      "ok": true,
+      "ok": false,
       "httpStatus": 200,
-      "kind": "hls",
-      "ms": 4152
+      "kind": "html",
+      "ms": 1660
     },
     {
       "name": "东方卫视",
-      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 7999
+      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1399
     },
     {
-      "name": "东方卫视4K",
-      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "name": "云南卫视",
+      "url": "http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=",
       "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8001
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 2130
     },
     {
       "name": "内蒙古卫视",
@@ -3479,7 +3686,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 434
+      "ms": 415
     },
     {
       "name": "农林卫视",
@@ -3487,7 +3694,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 568
+      "ms": 430
     },
     {
       "name": "凤凰卫视台",
@@ -3495,7 +3702,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3561
+      "ms": 4019
     },
     {
       "name": "厦门卫视",
@@ -3503,15 +3710,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 6463
+      "ms": 7520
     },
     {
       "name": "四川卫视",
-      "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 532
+      "ms": 2509
     },
     {
       "name": "宁夏卫视",
@@ -3519,23 +3726,32 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 431
+      "ms": 417
     },
     {
       "name": "安多卫视",
       "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1303
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 1512
     },
     {
       "name": "安徽卫视",
-      "url": "https://piccpndks.v.kcdnvip.com/audio/anhui_2/index.m3u8",
+      "url": "http://gmxw.7766.org:808/hls/40/index.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1826
+      "ms": 1678
+    },
+    {
+      "name": "山西卫视",
+      "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 419
     },
     {
       "name": "延边卫视",
@@ -3543,7 +3759,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 442
+      "ms": 208
     },
     {
       "name": "江苏卫视4K",
@@ -3551,23 +3767,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2798
+      "ms": 2685
     },
     {
-      "name": "河北卫视",
-      "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8",
+      "name": "江西卫视",
+      "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 335
+      "ms": 3733
     },
     {
-      "name": "海南卫视",
-      "url": "http://120.76.248.139/live/bfgd/4200000473.m3u8",
+      "name": "浙江卫视",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 446
+      "ms": 1763
     },
     {
       "name": "海峡卫视",
@@ -3575,15 +3791,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 430
-    },
-    {
-      "name": "深圳卫视",
-      "url": "http://gmxw.7766.org:808/hls/45/index.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 875
+      "ms": 413
     },
     {
       "name": "深圳卫视4K",
@@ -3591,7 +3799,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 2376
+      "ms": 1910
     },
     {
       "name": "澳门卫视",
@@ -3599,7 +3807,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3999
+      "ms": 3436
     },
     {
       "name": "西藏卫视",
@@ -3607,15 +3815,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 358
-    },
-    {
-      "name": "贵州卫视",
-      "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 103
+      "ms": 3737
     },
     {
       "name": "辽宁卫视",
@@ -3623,23 +3823,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2256
+      "ms": 1528
     },
     {
-      "name": "陕西卫视",
-      "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 105
-    },
-    {
-      "name": "上海第一财经",
-      "url": "https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
+      "name": "新纪实",
+      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1144
+      "ms": 1596
     },
     {
       "name": "纪实人文",
@@ -3647,7 +3839,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 950
+      "ms": 963
     },
     {
       "name": "纪实科教",
@@ -3655,16 +3847,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 216
+      "ms": 334
     },
     {
       "name": "易门综合",
       "url": "https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8",
-      "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "fetch failed",
-      "ms": 2457
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2099
     },
     {
       "name": "鬼吹灯之云南虫谷",
@@ -3672,7 +3863,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 4207
+      "ms": 3231
     },
     {
       "name": "鬼吹灯之精绝古城",
@@ -3680,7 +3871,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3588
+      "ms": 2981
     },
     {
       "name": "东森财经新闻",
@@ -3688,7 +3879,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1773
+      "ms": 1008
     },
     {
       "name": "耀才财经",
@@ -3696,15 +3887,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2756
+      "ms": 2007
     },
     {
       "name": "金鹰卡通",
-      "url": "http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 462
+      "url": "http://phoneqq.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPXFxX3Bob25lX2xpdmUmZXM9MTc5NDI5NTcxMyZ1dWlkPWFiY2FiMjQ3ZWM5MGExZTJhYjFmZGY5YzYyNWIwYzViLTZhMGUyNjM3JnM9ODA3NDlhODNhMThhMTUxODQ1MTdlY2YxNTNjOGQ4YjEmdWlkPSZuZHY9aW9zLTYuNS4wJnY9MiZhcz0wJl9jYXJDb2RlPTA,/HNGGMPP360.m3u8",
+      "ok": false,
+      "httpStatus": 403,
+      "kind": "unknown",
+      "ms": 1303
     },
     {
       "name": "东丰",
@@ -3712,7 +3903,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2322
+      "ms": 1413
     },
     {
       "name": "九台",
@@ -3720,7 +3911,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2319
+      "ms": 1761
     },
     {
       "name": "双辽",
@@ -3728,15 +3919,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2321
-    },
-    {
-      "name": "敦化一套",
-      "url": "http://stream8.jlntv.cn/dhtv/playlist.m3u8?zjild",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 2491
+      "ms": 4466
     },
     {
       "name": "柳河",
@@ -3744,7 +3927,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2935
+      "ms": 1849
     },
     {
       "name": "桦甸",
@@ -3752,7 +3935,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2536
+      "ms": 1867
     },
     {
       "name": "汪清",
@@ -3760,7 +3943,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2417
+      "ms": 1995
     },
     {
       "name": "珲春新闻",
@@ -3768,7 +3951,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2388
+      "ms": 1970
     },
     {
       "name": "白山公共",
@@ -3776,7 +3959,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2387
+      "ms": 1793
     },
     {
       "name": "磐石",
@@ -3784,7 +3967,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2222
+      "ms": 1860
     },
     {
       "name": "舒兰新闻",
@@ -3792,7 +3975,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1777
+      "ms": 1907
     },
     {
       "name": "辉南新闻",
@@ -3800,7 +3983,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1492
+      "ms": 1881
     },
     {
       "name": "通化县",
@@ -3808,7 +3991,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1458
+      "ms": 1761
     },
     {
       "name": "靖宇",
@@ -3816,7 +3999,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1495
+      "ms": 1960
     },
     {
       "name": "龙井",
@@ -3824,7 +4007,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3744
+      "ms": 2578
     },
     {
       "name": "井研综合",
@@ -3832,7 +4015,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4705
+      "ms": 6091
     },
     {
       "name": "叙州新闻综合",
@@ -3840,7 +4023,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1245
+      "ms": 1403
     },
     {
       "name": "名山综合",
@@ -3848,15 +4031,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2861
+      "ms": 3930
     },
     {
       "name": "广安公共",
       "url": "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1638
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 1001
     },
     {
       "name": "津南一套",
@@ -3864,7 +4048,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2258
+      "ms": 1357
     },
     {
       "name": "滨海新闻综合",
@@ -3872,7 +4056,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2089
+      "ms": 2118
     },
     {
       "name": "大立电视台",
@@ -3880,7 +4064,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1978
+      "ms": 2174
+    },
+    {
+      "name": "普陀电视台",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2311
     },
     {
       "name": "通海电视台",
@@ -3888,7 +4080,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2528
+      "ms": 679
     },
     {
       "name": "RT News（英语国际）",
@@ -3896,7 +4088,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2727
+      "ms": 3508
     },
     {
       "name": "亳州农村",
@@ -3904,23 +4096,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2558
-    },
-    {
-      "name": "浙江国际",
-      "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1953
-    },
-    {
-      "name": "浙江经济生活",
-      "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 2250
+      "ms": 2787
     },
     {
       "name": "邵氏影院",
@@ -3928,7 +4104,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 3858
+      "ms": 5822
     },
     {
       "name": "东莞新闻综合",
@@ -3936,7 +4112,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3078
+      "ms": 4007
     },
     {
       "name": "南国都市",
@@ -3944,7 +4120,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2476
+      "ms": 3734
     },
     {
       "name": "南国都市4K",
@@ -3952,7 +4128,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3111
+      "ms": 5122
     },
     {
       "name": "广东体育",
@@ -3960,7 +4136,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 3063
+      "ms": 4680
     },
     {
       "name": "广东珠江",
@@ -3968,7 +4144,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 2908
+      "ms": 4649
     },
     {
       "name": "广州竞赛",
@@ -3976,7 +4152,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 215
+      "ms": 206
     },
     {
       "name": "广州综合",
@@ -3984,31 +4160,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2718
+      "ms": 3693
     },
     {
       "name": "龙华偶像",
       "url": "https://cdn8.163189.xyz/live/lhox/stream.m3u8",
       "ok": false,
-      "httpStatus": 200,
-      "kind": "html",
-      "ms": 3012
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 3320
     },
     {
       "name": "龙华卡通",
       "url": "https://cdn8.163189.xyz/live/lhkt/stream.m3u8",
       "ok": false,
-      "httpStatus": 429,
-      "kind": "unknown",
-      "ms": 2200
-    },
-    {
-      "name": "龙华戏剧",
-      "url": "https://cdn8.163189.xyz/live/lhxj/stream.m3u8",
-      "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 2594
+      "ms": 4562
     },
     {
       "name": "龙华日韩",
@@ -4016,15 +4184,15 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 1842
+      "ms": 4526
     },
     {
       "name": "龙华电影",
       "url": "https://cdn8.163189.xyz/live/lhdy/stream.m3u8",
       "ok": false,
-      "httpStatus": 429,
-      "kind": "unknown",
-      "ms": 1171
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 4426
     },
     {
       "name": "龙门飞甲",
@@ -4032,7 +4200,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1552
+      "ms": 3433
     },
     {
       "name": "南宁都市生活",
@@ -4040,23 +4208,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1838
-    },
-    {
-      "name": "伊犁维吾尔",
-      "url": "http://110.153.180.106:55555/out_2/index.m3u8?zxinjd",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 543
-    },
-    {
-      "name": "可克达拉综合",
-      "url": "http://file.loulannews.cn/nmip-media/channellive/channel103824/playlist.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1717
+      "ms": 3907
     },
     {
       "name": "奎屯汉语",
@@ -4064,7 +4216,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2213
+      "ms": 1378
     },
     {
       "name": "玛纳斯",
@@ -4072,7 +4224,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 583
+      "ms": 514
     },
     {
       "name": "南京教科",
@@ -4080,7 +4232,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1185
+      "ms": 2747
+    },
+    {
+      "name": "浙江钱江都市",
+      "url": "http://ali-xwl.cztv.com/live/channel02720Plxw.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3242
     },
     {
       "name": "苏州4K",
@@ -4088,15 +4248,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1635
+      "ms": 3350
     },
     {
       "name": "辽宁都市",
-      "url": "http://120.76.248.139/live/bfgd/4200000610.m3u8",
+      "url": "http://120.76.248.139/live/bfgd/4200000068.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 557
+      "ms": 426
     },
     {
       "name": "任丘综合",
@@ -4104,7 +4264,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1518
+      "ms": 2662
     },
     {
       "name": "兴隆综合",
@@ -4112,7 +4272,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1497
+      "ms": 2741
     },
     {
       "name": "河北4K",
@@ -4120,7 +4280,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1574
+      "ms": 2957
     },
     {
       "name": "河北公共",
@@ -4128,7 +4288,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3605
+      "ms": 5051
     },
     {
       "name": "河北少儿",
@@ -4136,7 +4296,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3572
+      "ms": 4335
     },
     {
       "name": "河北影视",
@@ -4144,7 +4304,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6813
+      "ms": 4988
     },
     {
       "name": "河北经济",
@@ -4152,7 +4312,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6772
+      "ms": 4283
     },
     {
       "name": "河北都市",
@@ -4161,7 +4321,47 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 6341
+      "ms": 3467
+    },
+    {
+      "name": "石家庄城市服务",
+      "url": "http://nn.7x9d.cn/石家庄.php?id=5",
+      "ok": false,
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 4340
+    },
+    {
+      "name": "石家庄文化娱乐",
+      "url": "http://nn.7x9d.cn/石家庄.php?id=6",
+      "ok": false,
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 3475
+    },
+    {
+      "name": "石家庄新闻综合",
+      "url": "http://nn.7x9d.cn/石家庄.php?id=4",
+      "ok": false,
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 3841
+    },
+    {
+      "name": "邢台生活",
+      "url": "https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3638
+    },
+    {
+      "name": "邢台综合",
+      "url": "https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3116
     },
     {
       "name": "精灵宝可梦",
@@ -4169,7 +4369,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6765
+      "ms": 3628
     },
     {
       "name": "东阳影视生活",
@@ -4177,7 +4377,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2730
+      "ms": 269
+    },
+    {
+      "name": "余姚姚江文化",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3579
     },
     {
       "name": "余杭未来E频道",
@@ -4185,15 +4393,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2629
+      "ms": 3474
     },
     {
-      "name": "余杭综合频道",
+      "name": "余杭综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5422
+      "ms": 3455
+    },
+    {
+      "name": "嘉兴新闻综合",
+      "url": "http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3854
     },
     {
       "name": "数码时代",
@@ -4201,7 +4417,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 214
+      "ms": 3317
     },
     {
       "name": "文成综合",
@@ -4209,7 +4425,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5052
+      "ms": 3341
+    },
+    {
+      "name": "洞头综合",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 224
     },
     {
       "name": "浙江少儿",
@@ -4217,7 +4441,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 235
+      "ms": 3272
     },
     {
       "name": "浙江数码时代",
@@ -4225,7 +4449,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5327
+      "ms": 3159
     },
     {
       "name": "浙江新闻",
@@ -4233,15 +4457,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6861
+      "ms": 3237
     },
     {
       "name": "浙江经济",
-      "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5465
+      "ms": 3183
     },
     {
       "name": "浙江钱江",
@@ -4249,7 +4473,23 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5965
+      "ms": 260
+    },
+    {
+      "name": "萧山新闻综合",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2853
+    },
+    {
+      "name": "萧山生活",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed?",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2749
     },
     {
       "name": "萧山生活频道",
@@ -4257,40 +4497,55 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 6011
+      "ms": 224
+    },
+    {
+      "name": "诸暨新闻综合",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2519
     },
     {
       "name": "海南公共",
       "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd",
-      "ok": true,
+      "ok": false,
       "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7630
+      "kind": "html",
+      "ms": 2505
     },
     {
       "name": "海南少儿",
       "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=sepd",
-      "ok": true,
+      "ok": false,
       "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7768
+      "kind": "html",
+      "ms": 249
     },
     {
       "name": "海南文旅",
       "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd",
       "ok": false,
-      "httpStatus": 0,
-      "kind": "error",
-      "error": "This operation was aborted",
-      "ms": 8000
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 1388
+    },
+    {
+      "name": "海南新闻",
+      "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=xwpd",
+      "ok": false,
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 252
     },
     {
       "name": "海南自贸",
       "url": "http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd",
-      "ok": true,
+      "ok": false,
       "httpStatus": 200,
-      "kind": "hls",
-      "ms": 7341
+      "kind": "html",
+      "ms": 1483
     },
     {
       "name": "朝阳新闻综合",
@@ -4298,7 +4553,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 331
+      "ms": 431
     },
     {
       "name": "CHC电影",
@@ -4306,23 +4561,25 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 484
+      "ms": 436
     },
     {
       "name": "凤凰中文",
-      "url": "http://r.jdshipin.com/cCCzW",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 6079
+      "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv",
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 911
     },
     {
       "name": "凤凰资讯",
-      "url": "http://r.jdshipin.com/0Rp07",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 5756
+      "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv",
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 910
     },
     {
       "name": "凤凰资讯台",
@@ -4330,7 +4587,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5630
+      "ms": 782
     },
     {
       "name": "凤凰香港",
@@ -4338,7 +4595,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5789
+      "ms": 535
     },
     {
       "name": "凤凰香港台",
@@ -4346,7 +4603,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 5445
+      "ms": 566
     },
     {
       "name": "凤凰香港高清",
@@ -4354,7 +4611,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 4386
+      "ms": 481
     },
     {
       "name": "刘德华电影",
@@ -4362,7 +4619,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 5880
+      "ms": 994
     },
     {
       "name": "功夫电影",
@@ -4370,7 +4627,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 4417
+      "ms": 1094
     },
     {
       "name": "古天乐电影",
@@ -4378,7 +4635,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 4510
+      "ms": 1090
     },
     {
       "name": "周星驰电影",
@@ -4386,7 +4643,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2123
+      "ms": 1424
     },
     {
       "name": "强森电影",
@@ -4394,7 +4651,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2169
+      "ms": 818
     },
     {
       "name": "怪兽电影",
@@ -4402,7 +4659,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1719
+      "ms": 1151
     },
     {
       "name": "成龙电影",
@@ -4410,7 +4667,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1880
+      "ms": 804
     },
     {
       "name": "战争电影",
@@ -4418,7 +4675,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1733
+      "ms": 504
     },
     {
       "name": "末日电影合集",
@@ -4426,7 +4683,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 694
+      "ms": 389
     },
     {
       "name": "李连杰电影",
@@ -4434,7 +4691,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1240
+      "ms": 1112
     },
     {
       "name": "林正英电影",
@@ -4442,7 +4699,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1157
+      "ms": 766
     },
     {
       "name": "枪战电影",
@@ -4450,7 +4707,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 671
+      "ms": 450
     },
     {
       "name": "武侠电影",
@@ -4458,7 +4715,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1063
+      "ms": 704
     },
     {
       "name": "沈腾电影",
@@ -4466,7 +4723,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1103
+      "ms": 443
     },
     {
       "name": "特种兵之火凤凰",
@@ -4474,7 +4731,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 318
+      "ms": 659
     },
     {
       "name": "狄仁杰电影",
@@ -4482,7 +4739,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1510
+      "ms": 644
     },
     {
       "name": "玄幻电影",
@@ -4490,7 +4747,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1077
+      "ms": 905
     },
     {
       "name": "王晶电影",
@@ -4498,7 +4755,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 745
+      "ms": 1805
     },
     {
       "name": "甄子丹电影",
@@ -4506,7 +4763,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 803
+      "ms": 409
     },
     {
       "name": "电影丧尸片",
@@ -4514,7 +4771,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1796
+      "ms": 743
     },
     {
       "name": "电影八点档",
@@ -4522,7 +4779,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 942
+      "ms": 423
     },
     {
       "name": "电影刘德华",
@@ -4530,7 +4787,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1344
+      "ms": 412
     },
     {
       "name": "电影功夫片",
@@ -4538,7 +4795,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 636
+      "ms": 500
     },
     {
       "name": "电影动作电影",
@@ -4546,7 +4803,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 811
+      "ms": 1580
     },
     {
       "name": "电影周星星",
@@ -4554,7 +4811,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1610
+      "ms": 1699
     },
     {
       "name": "电影喜剧专场",
@@ -4562,7 +4819,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2088
+      "ms": 2478
     },
     {
       "name": "韩国电影1",
@@ -4570,7 +4827,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 246
+      "ms": 249
     },
     {
       "name": "韩国电影2",
@@ -4578,7 +4835,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 170
+      "ms": 203
     },
     {
       "name": "嘉峪关综合",
@@ -4586,7 +4843,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 897
+      "ms": 816
     },
     {
       "name": "天祝综合",
@@ -4594,7 +4851,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1126
+      "ms": 927
     },
     {
       "name": "永昌综合",
@@ -4602,7 +4859,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1472
+      "ms": 903
     },
     {
       "name": "西峰综合",
@@ -4610,7 +4867,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1615
+      "ms": 963
     },
     {
       "name": "三明新闻综合",
@@ -4618,7 +4875,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 3077
+      "ms": 1011
+    },
+    {
+      "name": "浙江经视",
+      "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 183
     },
     {
       "name": "福建公共",
@@ -4626,15 +4891,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1774
+      "ms": 1871
     },
     {
       "name": "福建旅游",
-      "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1739
+      "ms": 1815
     },
     {
       "name": "辽宁体育",
@@ -4642,15 +4907,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1349
+      "ms": 1301
     },
     {
       "name": "辽宁公共",
-      "url": "http://120.76.248.139/live/bfgd/4200000077.m3u8",
+      "url": "http://120.76.248.139/live/bfgd/4200000481.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 574
+      "ms": 216
     },
     {
       "name": "辽宁北方",
@@ -4658,7 +4923,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 547
+      "ms": 552
     },
     {
       "name": "辽宁影视",
@@ -4666,7 +4931,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1307
+      "ms": 1215
     },
     {
       "name": "辽宁影视剧",
@@ -4674,7 +4939,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 468
+      "ms": 430
     },
     {
       "name": "辽宁教育青少",
@@ -4682,7 +4947,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 571
+      "ms": 433
     },
     {
       "name": "辽宁生活",
@@ -4690,15 +4955,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 555
+      "ms": 553
     },
     {
       "name": "辽宁经济",
-      "url": "http://120.76.248.139/live/bfgd/4200000480.m3u8",
+      "url": "http://120.76.248.139/live/bfgd/4200000076.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 463
+      "ms": 540
     },
     {
       "name": "辽宁青少",
@@ -4706,7 +4971,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1112
+      "ms": 1115
     },
     {
       "name": "江津新闻",
@@ -4714,7 +4979,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 464
+      "ms": 451
     },
     {
       "name": "七台河新闻综合",
@@ -4722,7 +4987,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1822
+      "ms": 2950
     },
     {
       "name": "哈尔滨娱乐",
@@ -4730,7 +4995,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1210
+      "ms": 1619
     },
     {
       "name": "黑龙江少儿",
@@ -4738,7 +5003,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1272
+      "ms": 1499
     },
     {
       "name": "HOY78",
@@ -4746,7 +5011,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 1123
+      "ms": 1395
     },
     {
       "name": "HOY TV",
@@ -4754,7 +5019,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 503
+      "ms": 477
     },
     {
       "name": "TVBS-Asia",
@@ -4762,7 +5027,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 74
+      "ms": 67
     },
     {
       "name": "TVBS新闻台",
@@ -4770,7 +5035,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 336
+      "ms": 311
     },
     {
       "name": "TVB明珠台",
@@ -4778,7 +5043,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 2315
+      "ms": 4392
     },
     {
       "name": "TVB翡翠台 1080P",
@@ -4786,15 +5051,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 955
+      "ms": 1999
     },
     {
-      "name": "ViuTV",
-      "url": "http://r.jdshipin.com/vSJvl",
+      "name": "VIUTV",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 268
+      "ms": 105
     },
     {
       "name": "三立戏剧",
@@ -4802,7 +5067,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 336
+      "ms": 310
     },
     {
       "name": "八大戏剧台",
@@ -4810,15 +5075,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 325
+      "ms": 311
     },
     {
       "name": "华丽翡翠台",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=huali2",
+      "url": "http://r.jdshipin.com/thuYX",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 82
+      "ms": 641
     },
     {
       "name": "华视HD",
@@ -4826,7 +5091,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 755
+      "ms": 1011
     },
     {
       "name": "台视新闻",
@@ -4834,7 +5099,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 35
+      "ms": 33
     },
     {
       "name": "寰宇新闻台",
@@ -4842,7 +5107,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 696
+      "ms": 963
     },
     {
       "name": "无线新闻",
@@ -4850,7 +5115,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 275
+      "ms": 73
     },
     {
       "name": "无线新闻台",
@@ -4858,15 +5123,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 75
+      "ms": 81
     },
     {
       "name": "明珠台",
-      "url": "http://r.jdshipin.com/ZQ4kN",
+      "url": "http://r.jdshipin.com/jUx8K",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 283
+      "ms": 968
     },
     {
       "name": "民视新闻HD",
@@ -4874,7 +5139,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 629
+      "ms": 866
     },
     {
       "name": "纬来精采",
@@ -4882,15 +5147,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 167
+      "ms": 156
     },
     {
       "name": "翡翠台",
-      "url": "http://r.jdshipin.com/GeWKr",
+      "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 258
+      "ms": 834
     },
     {
       "name": "翡翠台4K",
@@ -4898,7 +5163,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 643
+      "ms": 878
     },
     {
       "name": "翡翠台北美版",
@@ -4906,15 +5171,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 539
+      "ms": 1895
     },
     {
       "name": "TVB星河",
-      "url": "http://r.jdshipin.com/Voac4",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=xinghe",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 263
+      "ms": 1013
     },
     {
       "name": "永夜星河",
@@ -4922,15 +5187,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1364
-    },
-    {
-      "name": "笑傲江湖",
-      "url": "https://live.ottiptv.cc/huya/26355790",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 794
+      "ms": 1057
     },
     {
       "name": "TVB娱乐新闻台",
@@ -4938,7 +5195,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 495
+      "ms": 181
     },
     {
       "name": "中视新闻",
@@ -4946,7 +5203,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 433
+      "ms": 629
     },
     {
       "name": "澳门体育",
@@ -4954,15 +5211,15 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 424
+      "ms": 587
     },
     {
-      "name": "纬来体育",
-      "url": "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8",
+      "name": "精品体育",
+      "url": "https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 579
+      "ms": 621
     },
     {
       "name": "冰冰影剧",
@@ -4970,7 +5227,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1471
+      "ms": 1661
     },
     {
       "name": "华语影视",
@@ -4978,7 +5235,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1381
+      "ms": 1627
     },
     {
       "name": "古装武侠",
@@ -4986,7 +5243,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1527
+      "ms": 5755
     },
     {
       "name": "斗鱼港剧",
@@ -4994,7 +5251,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 959
+      "ms": 1037
     },
     {
       "name": "橙记港剧",
@@ -5002,7 +5259,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1278
+      "ms": 1418
     },
     {
       "name": "热门港剧",
@@ -5010,7 +5267,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1402
+      "ms": 913
     },
     {
       "name": "经典剧集",
@@ -5018,23 +5275,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 562
-    },
-    {
-      "name": "贝爷求生",
-      "url": "http://www.goodiptv.club/douyu/9661369",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 3409
-    },
-    {
-      "name": "中华小当家",
-      "url": "https://live.ottiptv.cc/huya/11342413",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 621
+      "ms": 1167
     },
     {
       "name": "名侦探柯南",
@@ -5042,7 +5283,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2067
+      "ms": 613
     },
     {
       "name": "哆啦A梦",
@@ -5050,7 +5291,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1140
+      "ms": 834
     },
     {
       "name": "喜羊羊与灰太狼",
@@ -5058,15 +5299,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1358
+      "ms": 912
     },
     {
       "name": "灌篮高手",
       "url": "https://live.ottiptv.cc/yy/1382735626",
       "ok": true,
       "httpStatus": 200,
-      "kind": "media",
-      "ms": 2071
+      "kind": "hls",
+      "ms": 415
     },
     {
       "name": "RT Doc-Русский（俄语纪录）",
@@ -5074,7 +5315,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1011
+      "ms": 1787
     },
     {
       "name": "RT Documentary（英语纪录）",
@@ -5082,7 +5323,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 808
+      "ms": 1904
     },
     {
       "name": "中国村庄",
@@ -5090,7 +5331,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1673
+      "ms": 4629
     },
     {
       "name": "人与自然",
@@ -5098,7 +5339,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1762
+      "ms": 4706
     },
     {
       "name": "地理中国",
@@ -5106,7 +5347,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1395
+      "ms": 4690
     },
     {
       "name": "航拍中国第二季",
@@ -5114,7 +5355,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1269
+      "ms": 4606
     },
     {
       "name": "飞碟之谜01",
@@ -5122,7 +5363,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2351
+      "ms": 5334
     },
     {
       "name": "飞碟之谜02",
@@ -5130,7 +5371,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1384
+      "ms": 4729
     },
     {
       "name": "风云音乐",
@@ -5138,7 +5379,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 99
+      "ms": 124
     },
     {
       "name": "澳门综艺",
@@ -5146,7 +5387,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 58
+      "ms": 66
     },
     {
       "name": "ABC News Live",
@@ -5154,7 +5395,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 504
+      "ms": 3902
     },
     {
       "name": "Arirang",
@@ -5162,7 +5403,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 644
+      "ms": 4005
     },
     {
       "name": "Astro AOD",
@@ -5170,7 +5411,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1409
+      "ms": 998
     },
     {
       "name": "Beautiful Life TV",
@@ -5178,7 +5419,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1071
+      "ms": 4102
     },
     {
       "name": "Bloomberg Asia",
@@ -5186,7 +5427,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 144
+      "ms": 380
     },
     {
       "name": "CBC News",
@@ -5194,7 +5435,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 643
+      "ms": 3588
     },
     {
       "name": "CNA",
@@ -5202,7 +5443,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 718
+      "ms": 3783
     },
     {
       "name": "CTi News",
@@ -5210,7 +5451,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 80
+      "ms": 92
     },
     {
       "name": "DW",
@@ -5218,7 +5459,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 83
+      "ms": 118
     },
     {
       "name": "ET Mall 60",
@@ -5226,7 +5467,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 74
+      "ms": 89
     },
     {
       "name": "Genius Go Go Go",
@@ -5234,7 +5475,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 195
+      "ms": 149
     },
     {
       "name": "Good",
@@ -5242,7 +5483,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1046
+      "ms": 3784
     },
     {
       "name": "Good 2",
@@ -5250,7 +5491,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1105
+      "ms": 3860
     },
     {
       "name": "JP1",
@@ -5258,7 +5499,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 73
+      "ms": 92
     },
     {
       "name": "KPop",
@@ -5266,7 +5507,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 78
+      "ms": 94
     },
     {
       "name": "Momo 1",
@@ -5274,7 +5515,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 81
+      "ms": 92
     },
     {
       "name": "Momo 2",
@@ -5282,7 +5523,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 634
+      "ms": 88
     },
     {
       "name": "Newsmax",
@@ -5290,7 +5531,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 698
+      "ms": 3487
     },
     {
       "name": "NOW NEWS",
@@ -5298,7 +5539,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "html",
-      "ms": 44
+      "ms": 76
     },
     {
       "name": "NU",
@@ -5306,7 +5547,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 68
+      "ms": 87
     },
     {
       "name": "NU2",
@@ -5314,7 +5555,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 73
+      "ms": 98
     },
     {
       "name": "Pet Club TV",
@@ -5322,7 +5563,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2868
+      "ms": 5598
     },
     {
       "name": "RT Arabic（阿语）",
@@ -5330,7 +5571,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2018
+      "ms": 5301
     },
     {
       "name": "RT Balkan （塞尔维亚语）",
@@ -5338,7 +5579,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2254
+      "ms": 4292
     },
     {
       "name": "RT DE（德语）",
@@ -5346,7 +5587,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2394
+      "ms": 4444
     },
     {
       "name": "RT Español（西语）",
@@ -5354,7 +5595,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2925
+      "ms": 5288
     },
     {
       "name": "RT Français（法语）",
@@ -5362,7 +5603,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2474
+      "ms": 5445
     },
     {
       "name": "RTHK31",
@@ -5370,7 +5611,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 459
+      "ms": 483
     },
     {
       "name": "RTHK32",
@@ -5378,7 +5619,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2363
+      "ms": 467
     },
     {
       "name": "Supreme Master TV",
@@ -5386,7 +5627,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2012
+      "ms": 4075
     },
     {
       "name": "Taiwan Plus TV",
@@ -5394,7 +5635,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 68
+      "ms": 110
     },
     {
       "name": "Trace Sports",
@@ -5402,15 +5643,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2173
+      "ms": 3942
     },
     {
       "name": "TVB Plus",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=j2",
+      "url": "http://r.jdshipin.com/ndGgS",
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2374
+      "ms": 81
     },
     {
       "name": "Wild Earth",
@@ -5418,7 +5659,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2088
+      "ms": 3452
     },
     {
       "name": "WionNews",
@@ -5426,7 +5667,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 2638
+      "ms": 2237
     },
     {
       "name": "三国演义",
@@ -5434,7 +5675,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 954
+      "ms": 3006
     },
     {
       "name": "与凤行",
@@ -5442,7 +5683,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 831
+      "ms": 2941
     },
     {
       "name": "中华特产",
@@ -5450,7 +5691,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 221
+      "ms": 565
     },
     {
       "name": "乌龙闯情关",
@@ -5458,7 +5699,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 919
+      "ms": 2915
     },
     {
       "name": "乐游频道",
@@ -5466,7 +5707,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 875
+      "ms": 952
     },
     {
       "name": "亚洲武侠",
@@ -5474,7 +5715,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 64
+      "ms": 2328
     },
     {
       "name": "亮剑",
@@ -5482,15 +5723,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 365
-    },
-    {
-      "name": "仙剑奇侠传",
-      "url": "https://live.ottiptv.cc/yy/1382749903",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 2389
+      "ms": 2362
     },
     {
       "name": "优优宝贝",
@@ -5498,15 +5731,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 337
-    },
-    {
-      "name": "伪装者",
-      "url": "https://live.ottiptv.cc/yy/1354936244",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 2598
+      "ms": 540
     },
     {
       "name": "使徒行者",
@@ -5514,7 +5739,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 532
+      "ms": 2218
     },
     {
       "name": "信大",
@@ -5522,7 +5747,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 77
+      "ms": 103
     },
     {
       "name": "倚天屠龙记",
@@ -5530,7 +5755,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1232
+      "ms": 2680
     },
     {
       "name": "刑事侦缉档案",
@@ -5538,7 +5763,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2631
+      "ms": 2678
     },
     {
       "name": "创世纪",
@@ -5546,7 +5771,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2025
+      "ms": 2129
     },
     {
       "name": "唐诡之西行",
@@ -5554,7 +5779,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1522
+      "ms": 2344
     },
     {
       "name": "四海钓鱼",
@@ -5562,7 +5787,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 235
+      "ms": 328
     },
     {
       "name": "士兵突击",
@@ -5570,7 +5795,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 331
+      "ms": 1619
     },
     {
       "name": "大唐双龙传",
@@ -5578,7 +5803,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1862
+      "ms": 1929
     },
     {
       "name": "大时代",
@@ -5586,7 +5811,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1796
+      "ms": 1370
     },
     {
       "name": "大秦赋",
@@ -5594,7 +5819,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1853
+      "ms": 1512
     },
     {
       "name": "天龙八部",
@@ -5602,7 +5827,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 792
+      "ms": 1766
     },
     {
       "name": "如懿传",
@@ -5610,7 +5835,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1176
+      "ms": 1367
     },
     {
       "name": "妙手仁心",
@@ -5618,7 +5843,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1209
+      "ms": 1057
     },
     {
       "name": "宇宙科幻合集",
@@ -5626,7 +5851,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1328
+      "ms": 781
     },
     {
       "name": "寻秦记",
@@ -5634,7 +5859,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1954
+      "ms": 898
     },
     {
       "name": "封神榜",
@@ -5642,7 +5867,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 744
+      "ms": 1186
     },
     {
       "name": "射雕英雄传",
@@ -5650,7 +5875,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1133
+      "ms": 1278
     },
     {
       "name": "少年包青天第一部",
@@ -5658,15 +5883,15 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 945
+      "ms": 3524
     },
     {
       "name": "少年包青天第三部",
       "url": "https://live.ottiptv.cc/yy/1382736814",
       "ok": true,
       "httpStatus": 200,
-      "kind": "media",
-      "ms": 808
+      "kind": "hls",
+      "ms": 420
     },
     {
       "name": "少年包青天第二部",
@@ -5674,7 +5899,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 777
+      "ms": 706
     },
     {
       "name": "庆余年",
@@ -5682,7 +5907,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1646
+      "ms": 903
     },
     {
       "name": "康熙微服私访记",
@@ -5690,7 +5915,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 950
+      "ms": 1299
     },
     {
       "name": "康熙王朝",
@@ -5698,7 +5923,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 919
+      "ms": 853
     },
     {
       "name": "延禧攻略",
@@ -5706,7 +5931,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 829
+      "ms": 621
     },
     {
       "name": "扫黄先锋",
@@ -5714,7 +5939,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 857
+      "ms": 1167
     },
     {
       "name": "新三国",
@@ -5722,7 +5947,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 812
+      "ms": 1049
     },
     {
       "name": "新三国（斗鱼）",
@@ -5730,7 +5955,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1211
+      "ms": 1021
     },
     {
       "name": "新水浒传",
@@ -5738,15 +5963,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 406
-    },
-    {
-      "name": "新白娘子传奇",
-      "url": "https://live.ottiptv.cc/yy/1354490667",
-      "ok": false,
-      "httpStatus": 404,
-      "kind": "unknown",
-      "ms": 1815
+      "ms": 382
     },
     {
       "name": "新视觉HD",
@@ -5754,7 +5971,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 238
+      "ms": 359
     },
     {
       "name": "无心法师",
@@ -5762,7 +5979,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1136
+      "ms": 1126
     },
     {
       "name": "春晚1983",
@@ -5770,7 +5987,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 87
+      "ms": 107
     },
     {
       "name": "春晚1984",
@@ -5778,7 +5995,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 75
+      "ms": 113
     },
     {
       "name": "春晚1985",
@@ -5786,7 +6003,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 76
+      "ms": 107
     },
     {
       "name": "春晚1986",
@@ -5794,7 +6011,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 41
+      "ms": 106
     },
     {
       "name": "春晚1987",
@@ -5802,7 +6019,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 16
+      "ms": 82
     },
     {
       "name": "春晚1988",
@@ -5810,7 +6027,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 45
+      "ms": 78
     },
     {
       "name": "春晚1989",
@@ -5818,7 +6035,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 50
+      "ms": 85
     },
     {
       "name": "春晚1991",
@@ -5826,7 +6043,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 74
+      "ms": 80
     },
     {
       "name": "春晚1999",
@@ -5834,7 +6051,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 74
+      "ms": 79
     },
     {
       "name": "春晚2008",
@@ -5842,7 +6059,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 72
+      "ms": 80
     },
     {
       "name": "春晚2011",
@@ -5850,7 +6067,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 14
+      "ms": 81
     },
     {
       "name": "春晚2015",
@@ -5858,7 +6075,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 56
+      "ms": 32
     },
     {
       "name": "春晚2017",
@@ -5866,7 +6083,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 55
+      "ms": 42
     },
     {
       "name": "春晚2020",
@@ -5874,7 +6091,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 271
+      "ms": 87
     },
     {
       "name": "春晚2021",
@@ -5882,7 +6099,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 274
+      "ms": 34
     },
     {
       "name": "春晚2022",
@@ -5890,7 +6107,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 23
+      "ms": 94
     },
     {
       "name": "春晚2025",
@@ -5898,7 +6115,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 472
+      "ms": 461
     },
     {
       "name": "柳舟计",
@@ -5906,7 +6123,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 2006
+      "ms": 357
     },
     {
       "name": "梦中的那片海",
@@ -5914,7 +6131,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1061
+      "ms": 916
     },
     {
       "name": "楚汉骄雄",
@@ -5922,15 +6139,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 920
-    },
-    {
-      "name": "欢乐颂",
-      "url": "https://live.ottiptv.cc/yy/1382735624",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 1380
+      "ms": 888
     },
     {
       "name": "法政先锋",
@@ -5938,7 +6147,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1337
+      "ms": 853
     },
     {
       "name": "洗冤录",
@@ -5946,7 +6155,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 933
+      "ms": 680
     },
     {
       "name": "活佛济公3",
@@ -5954,7 +6163,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1028
+      "ms": 558
     },
     {
       "name": "流水迢迢",
@@ -5962,7 +6171,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 934
+      "ms": 1544
     },
     {
       "name": "澳视澳门",
@@ -5970,7 +6179,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 93
+      "ms": 111
     },
     {
       "name": "爱情公寓",
@@ -5978,7 +6187,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 921
+      "ms": 342
     },
     {
       "name": "爱情公寓（斗鱼）",
@@ -5986,15 +6195,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1095
-    },
-    {
-      "name": "父母爱情",
-      "url": "https://live.ottiptv.cc/yy/1354926650",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 932
+      "ms": 825
     },
     {
       "name": "猫和老鼠",
@@ -6002,7 +6203,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 804
+      "ms": 943
     },
     {
       "name": "玫瑰的故事",
@@ -6010,7 +6211,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 854
+      "ms": 574
     },
     {
       "name": "环球旅游",
@@ -6018,7 +6219,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 223
+      "ms": 355
     },
     {
       "name": "环球电视",
@@ -6026,7 +6227,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 843
+      "ms": 850
     },
     {
       "name": "生态环境",
@@ -6034,7 +6235,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 557
+      "ms": 331
     },
     {
       "name": "神探狄仁杰第一部",
@@ -6042,7 +6243,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 385
+      "ms": 613
     },
     {
       "name": "神探狄仁杰第三部",
@@ -6050,7 +6251,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1062
+      "ms": 932
     },
     {
       "name": "神探狄仁杰第二部",
@@ -6058,7 +6259,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1144
+      "ms": 1368
     },
     {
       "name": "神雕侠侣",
@@ -6066,7 +6267,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 648
+      "ms": 1036
     },
     {
       "name": "美亚C+",
@@ -6074,7 +6275,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 431
+      "ms": 516
     },
     {
       "name": "芈月传",
@@ -6082,7 +6283,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 619
+      "ms": 1356
     },
     {
       "name": "西游记",
@@ -6090,15 +6291,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 344
-    },
-    {
-      "name": "西游记后传",
-      "url": "https://live.ottiptv.cc/yy/1353392400",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 1341
+      "ms": 961
     },
     {
       "name": "西游记续集",
@@ -6106,15 +6299,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1982
-    },
-    {
-      "name": "谈判专家",
-      "url": "https://live.ottiptv.cc/yy/1382735560",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 697
+      "ms": 836
     },
     {
       "name": "车迷频道",
@@ -6122,7 +6307,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 345
+      "ms": 338
     },
     {
       "name": "铁齿铜牙纪晓岚",
@@ -6130,7 +6315,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 648
+      "ms": 636
     },
     {
       "name": "陈情令",
@@ -6138,15 +6323,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 1147
-    },
-    {
-      "name": "隋唐英雄传",
-      "url": "https://live.ottiptv.cc/yy/1352475619",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "media",
-      "ms": 827
+      "ms": 1142
     },
     {
       "name": "雪豹",
@@ -6154,7 +6331,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 957
+      "ms": 890
     },
     {
       "name": "鬼吹灯之怒晴湘西",
@@ -6162,7 +6339,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 806
+      "ms": 546
     },
     {
       "name": "鬼吹灯之龙岭迷窟",
@@ -6170,15 +6347,16 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 668
+      "ms": 1107
     },
     {
       "name": "Anhui TV",
       "url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 1385
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8001
     },
     {
       "name": "Anshun Comprehensive News Channel",
@@ -6186,7 +6364,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 722
+      "ms": 639
     },
     {
       "name": "Beijing Satellite TV [Not 24/7]",
@@ -6195,7 +6373,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Beijing Satellite TV HD (1080p)",
@@ -6203,7 +6381,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1431
+      "ms": 3749
     },
     {
       "name": "Bingtuan Satellite TV (540p) [Not 24/7]",
@@ -6212,7 +6390,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "BRTV Kaku Childrens Channel",
@@ -6221,7 +6399,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "CCTV-1 HD (1080p)",
@@ -6229,7 +6407,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 72
+      "ms": 64
     },
     {
       "name": "CCTV-4K HD (1080p)",
@@ -6237,7 +6415,7 @@
       "ok": false,
       "httpStatus": 200,
       "kind": "unknown",
-      "ms": 111
+      "ms": 92
     },
     {
       "name": "CCTV-5+ (1080p)",
@@ -6245,7 +6423,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 329
+      "ms": 751
     },
     {
       "name": "CCTV-6 [Geo-blocked]",
@@ -6253,7 +6431,7 @@
       "ok": false,
       "httpStatus": 500,
       "kind": "unknown",
-      "ms": 734
+      "ms": 978
     },
     {
       "name": "CCTV-6 HD (1080p)",
@@ -6261,7 +6439,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 115
+      "ms": 119
     },
     {
       "name": "CCTV-13 HD (1080p)",
@@ -6269,7 +6447,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1167
+      "ms": 3621
     },
     {
       "name": "CCTV-Health (1080p)",
@@ -6277,7 +6455,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1042
+      "ms": 134
     },
     {
       "name": "CCTV-World Geography SD (1080p)",
@@ -6285,7 +6463,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 154
+      "ms": 98
     },
     {
       "name": "CETV-1 (576p)",
@@ -6303,7 +6481,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "CHC Action (1080p)",
@@ -6312,7 +6490,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "CHC Home Theater (1080p)",
@@ -6339,7 +6517,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 935
+      "ms": 1616
     },
     {
       "name": "Chuzhou Public Channel (400p)",
@@ -6348,7 +6526,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 933
+      "ms": 1613
     },
     {
       "name": "Chuzhou Science & Education Channel (400p)",
@@ -6357,7 +6535,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 826
+      "ms": 1573
     },
     {
       "name": "CND Film Discovery Channel (576p)",
@@ -6374,7 +6552,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 2119
+      "ms": 2703
     },
     {
       "name": "Documentary Humanities Channel (1080p)",
@@ -6389,9 +6567,10 @@
       "name": "Dragon TV International",
       "url": "https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8",
       "ok": false,
-      "httpStatus": 404,
-      "kind": "unknown",
-      "ms": 2183
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000
     },
     {
       "name": "Dunhuang TV (1080p)",
@@ -6418,7 +6597,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 500
+      "ms": 219
     },
     {
       "name": "Golden Eagle Cartoon (576p)",
@@ -6435,7 +6614,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 135
+      "ms": 2035
     },
     {
       "name": "Guizhou TV (576p)",
@@ -6444,7 +6623,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Hebi News Channel (480p) [Not 24/7]",
@@ -6452,7 +6631,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 738
+      "ms": 2403
     },
     {
       "name": "Heilongjiang TV (1080p)",
@@ -6470,7 +6649,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8002
+      "ms": 8000
     },
     {
       "name": "High Channel TV (1080p)",
@@ -6479,7 +6658,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "HomePlus",
@@ -6487,7 +6666,7 @@
       "ok": false,
       "httpStatus": 404,
       "kind": "unknown",
-      "ms": 661
+      "ms": 856
     },
     {
       "name": "Hunan News Channel [Geo-blocked]",
@@ -6495,7 +6674,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1250
+      "ms": 1133
     },
     {
       "name": "Hunan Politics & Law Channel [Geo-blocked]",
@@ -6503,7 +6682,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1278
+      "ms": 761
     },
     {
       "name": "Hunan Womens Channel [Geo-blocked]",
@@ -6511,7 +6690,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1084
+      "ms": 771
     },
     {
       "name": "Jiangsu City Channel (576p)",
@@ -6547,7 +6726,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "Jiangsu Satellite TV (1080p)",
@@ -6565,7 +6744,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "Jiangsu Variety Channel (576p) [Not 24/7]",
@@ -6582,7 +6761,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1669
+      "ms": 1436
     },
     {
       "name": "Jiangxi City Channel",
@@ -6590,7 +6769,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1633
+      "ms": 1437
     },
     {
       "name": "Jiangxi Economy & Life Channel",
@@ -6598,7 +6777,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1888
+      "ms": 1680
     },
     {
       "name": "Jiangxi Movie Channel",
@@ -6606,7 +6785,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1589
+      "ms": 1660
     },
     {
       "name": "Jiangxi Public & Agriculture Channel",
@@ -6614,7 +6793,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1829
+      "ms": 1641
     },
     {
       "name": "Jiangxi TV (1080p)",
@@ -6623,7 +6802,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Jiuquan TV News Comprehensive Channel (576p)",
@@ -6632,7 +6811,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Liangshan TV [Not 24/7]",
@@ -6641,7 +6820,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Liaoning TV (1080p)",
@@ -6650,7 +6829,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Nanchang News & Generalist Channel",
@@ -6658,7 +6837,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1429
+      "ms": 1160
     },
     {
       "name": "Nei Monggol TV 2 Mongolian Culture Channel",
@@ -6676,7 +6855,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "Pingxiang TV News Channel (576p) [Not 24/7]",
@@ -6685,7 +6864,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 1665
+      "ms": 1479
     },
     {
       "name": "Qinghai TV (576p)",
@@ -6712,7 +6891,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "QTV-4",
@@ -6730,7 +6909,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8000
+      "ms": 8001
     },
     {
       "name": "Shandong Satellite TV (720p)",
@@ -6748,7 +6927,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Shandong TV Agricultural Science Channel (406p) [Geo-blocked]",
@@ -6756,7 +6935,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 388
+      "ms": 400
     },
     {
       "name": "Shandong TV Children's Channel (406p) [Geo-blocked]",
@@ -6764,7 +6943,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 379
+      "ms": 285
     },
     {
       "name": "Shandong TV Life Channel (1080p) [Geo-blocked]",
@@ -6772,7 +6951,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 216
+      "ms": 283
     },
     {
       "name": "Shandong TV Qilu Channel (1080p) [Geo-blocked]",
@@ -6780,7 +6959,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 151
+      "ms": 281
     },
     {
       "name": "Shandong TV Sports Channel (1080p) [Geo-blocked]",
@@ -6788,7 +6967,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 148
+      "ms": 108
     },
     {
       "name": "Shandong TV Variety Channel (406p) [Geo-blocked]",
@@ -6796,7 +6975,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 113
+      "ms": 102
     },
     {
       "name": "Shenzhen Satellite TV (2160p)",
@@ -6804,7 +6983,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 1894
+      "ms": 954
     },
     {
       "name": "Sichuan Satellite TV (576p)",
@@ -6822,7 +7001,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 84
+      "ms": 58
     },
     {
       "name": "Tianjin TV (1080p)",
@@ -6840,7 +7019,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 812
+      "ms": 1205
     },
     {
       "name": "Xi'an Silk Road Channel (404p) [Not 24/7]",
@@ -6849,7 +7028,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 805
+      "ms": 1176
     },
     {
       "name": "Xinjiang TV 1",
@@ -6866,7 +7045,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 562
+      "ms": 629
     },
     {
       "name": "Xuzhou Economic Life Channel (1080p)",
@@ -6893,7 +7072,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 7999
+      "ms": 8000
     },
     {
       "name": "Yunnan Satellite TV (1080p)",
@@ -6911,15 +7090,15 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Asian Drama (1080p)",
       "url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
-      "ok": false,
-      "httpStatus": 404,
-      "kind": "unknown",
-      "ms": 432
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 397
     },
     {
       "name": "BSTV (Hong Kong) (576p)",
@@ -6928,7 +7107,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "Celestial Movies (576i)",
@@ -6936,15 +7115,15 @@
       "ok": false,
       "httpStatus": 401,
       "kind": "unknown",
-      "ms": 5417
+      "ms": 5391
     },
     {
       "name": "Golden Jade (1080p)",
       "url": "http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8",
-      "ok": false,
-      "httpStatus": 404,
-      "kind": "unknown",
-      "ms": 430
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 394
     },
     {
       "name": "Hong Kong International Business Channel (1080p) [Geo-blocked]",
@@ -6952,7 +7131,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 135
+      "ms": 157
     },
     {
       "name": "HOY Infotainment (1080p) [Geo-blocked]",
@@ -6960,7 +7139,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 46
+      "ms": 58
     },
     {
       "name": "HOY TV (1080p) [Geo-blocked]",
@@ -6968,7 +7147,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 15
+      "ms": 19
     },
     {
       "name": "Jade (1080p)",
@@ -6976,7 +7155,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 435
+      "ms": 393
     },
     {
       "name": "Mei Ah Movie Channel (1080p)",
@@ -6984,7 +7163,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 434
+      "ms": 394
     },
     {
       "name": "Pet Club TV (1080p)",
@@ -6992,7 +7171,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 775
+      "ms": 428
     },
     {
       "name": "Phoenix Chinese Channel (720p)",
@@ -7018,7 +7197,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 152
+      "ms": 128
     },
     {
       "name": "RTHK TV 32 (1080p) [Geo-blocked]",
@@ -7026,7 +7205,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 454
+      "ms": 155
     },
     {
       "name": "RTHK TV 33 (1080p) [Geo-blocked]",
@@ -7034,7 +7213,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 211
+      "ms": 195
     },
     {
       "name": "RTHK TV 34 (1080p) [Geo-blocked]",
@@ -7042,7 +7221,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 146
+      "ms": 270
     },
     {
       "name": "RTHK TV 35 (1080p) [Geo-blocked]",
@@ -7050,15 +7229,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 479
-    },
-    {
-      "name": "ViuTV (1080i)",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv",
-      "ok": true,
-      "httpStatus": 200,
-      "kind": "hls",
-      "ms": 124
+      "ms": 161
     },
     {
       "name": "Animax Asia Taiwan",
@@ -7066,7 +7237,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 451
+      "ms": 420
     },
     {
       "name": "AXN Asia Taiwan (1080p)",
@@ -7074,7 +7245,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 404
+      "ms": 416
     },
     {
       "name": "CGNTV Chinese (1080p)",
@@ -7082,7 +7253,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 654
+      "ms": 424
     },
     {
       "name": "Cinemax Asia Taiwan (1080p)",
@@ -7090,7 +7261,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 456
+      "ms": 453
     },
     {
       "name": "CTi Variety (720p)",
@@ -7108,7 +7279,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 169
+      "ms": 90
     },
     {
       "name": "DaAi 1 (720p)",
@@ -7116,7 +7287,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 505
+      "ms": 243
     },
     {
       "name": "DaAi 2 (1080p)",
@@ -7125,7 +7296,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 239
+      "ms": 209
     },
     {
       "name": "Discovery Asia Taiwan (1080p)",
@@ -7133,7 +7304,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 418
+      "ms": 383
     },
     {
       "name": "EBC Financial News (1080p) [Not 24/7]",
@@ -7142,7 +7313,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 222
+      "ms": 71
     },
     {
       "name": "EBC Foreign Movie",
@@ -7151,7 +7322,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 7999
+      "ms": 8001
     },
     {
       "name": "EBC News (1080p) [Not 24/7]",
@@ -7160,7 +7331,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 151
+      "ms": 72
     },
     {
       "name": "FTV (Taiwan) (720p) [Not 24/7]",
@@ -7169,7 +7340,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 174
+      "ms": 35
     },
     {
       "name": "FTV One (720p) [Not 24/7]",
@@ -7178,7 +7349,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 177
+      "ms": 100
     },
     {
       "name": "Hakka TV",
@@ -7186,7 +7357,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 303
+      "ms": 129
     },
     {
       "name": "HBO Asia Taiwan (1080p)",
@@ -7194,7 +7365,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "media",
-      "ms": 461
+      "ms": 372
     },
     {
       "name": "Indigenous TV (720p)",
@@ -7202,7 +7373,7 @@
       "ok": false,
       "httpStatus": 403,
       "kind": "unknown",
-      "ms": 228
+      "ms": 123
     },
     {
       "name": "MOMO TV (1080p)",
@@ -7211,7 +7382,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 398
+      "ms": 209
     },
     {
       "name": "NTD TV Asia-Pacific",
@@ -7219,7 +7390,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 587
+      "ms": 348
     },
     {
       "name": "PTS 3",
@@ -7237,7 +7408,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 120
+      "ms": 9
     },
     {
       "name": "SJTV",
@@ -7254,7 +7425,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1243
+      "ms": 1213
     },
     {
       "name": "TTV (720p)",
@@ -7263,7 +7434,15 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
+    },
+    {
+      "name": "TTV News",
+      "url": "https://live.wcetv.com/hls/master-ttvnews.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 152
     },
     {
       "name": "TVBS News [Geo-blocked]",
@@ -7272,7 +7451,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "fetch failed",
-      "ms": 255
+      "ms": 72
     },
     {
       "name": "WXTV (480p)",
@@ -7280,7 +7459,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1028
+      "ms": 874
     },
     {
       "name": "Canal Macau (720p) [Not 24/7]",
@@ -7289,7 +7468,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8002
+      "ms": 7999
     },
     {
       "name": "Lotus TV (720p)",
@@ -7297,7 +7476,7 @@
       "ok": true,
       "httpStatus": 200,
       "kind": "hls",
-      "ms": 1064
+      "ms": 773
     },
     {
       "name": "TDM Entertainment (720p)",
@@ -7315,7 +7494,7 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
     },
     {
       "name": "TDM Ou Mun (720p)",
@@ -7342,7 +7521,450 @@
       "httpStatus": 0,
       "kind": "error",
       "error": "This operation was aborted",
-      "ms": 8001
+      "ms": 8000
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://74.91.26.218:82/live/cctv4hd.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1037,
+      "stale": true
+    },
+    {
+      "name": "CCTV-16",
+      "url": "http://gmxw.7766.org:808/hls/169/index.m3u8",
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "This operation was aborted",
+      "ms": 8000,
+      "stale": true
+    },
+    {
+      "name": "大湾区卫视",
+      "url": "http://222.128.55.152:9080/live/dwq.m3u8",
+      "ok": false,
+      "httpStatus": 0,
+      "kind": "error",
+      "error": "fetch failed",
+      "ms": 226,
+      "stale": true
+    },
+    {
+      "name": "CCTV-4K 高清",
+      "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794247200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-179b646e71bcc769d97cf7f898ac72a3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 4758,
+      "stale": true
+    },
+    {
+      "name": "CCTV5",
+      "url": "http://gmxw.7766.org:808/hls/93/index.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 6147,
+      "stale": true
+    },
+    {
+      "name": "CCTV-9 纪录",
+      "url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ea2e9e8509a3d289d9c083fd82d2b8a7",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 4049,
+      "stale": true
+    },
+    {
+      "name": "CCTV12",
+      "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 236,
+      "stale": true
+    },
+    {
+      "name": "CCTV15",
+      "url": "http://gmxw.7766.org:808/hls/102/index.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 3063,
+      "stale": true
+    },
+    {
+      "name": "CCTV17",
+      "url": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 3527,
+      "stale": true
+    },
+    {
+      "name": "CCTV第一剧场",
+      "url": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 2441,
+      "stale": true
+    },
+    {
+      "name": "CGTN阿语",
+      "url": "https://0472.org/hls/cgtna.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 60,
+      "stale": true
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://t.061899.xyz/tl/tl.php?id=ynws",
+      "ok": false,
+      "httpStatus": 429,
+      "kind": "unknown",
+      "ms": 28,
+      "stale": true
+    },
+    {
+      "name": "四川卫视",
+      "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 532,
+      "stale": true
+    },
+    {
+      "name": "安徽卫视",
+      "url": "https://piccpndks.v.kcdnvip.com/audio/anhui_2/index.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1826,
+      "stale": true
+    },
+    {
+      "name": "贵州卫视",
+      "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 103,
+      "stale": true
+    },
+    {
+      "name": "陕西卫视",
+      "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 105,
+      "stale": true
+    },
+    {
+      "name": "上海第一财经",
+      "url": "https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1144,
+      "stale": true
+    },
+    {
+      "name": "金鹰卡通",
+      "url": "http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 462,
+      "stale": true
+    },
+    {
+      "name": "敦化一套",
+      "url": "http://stream8.jlntv.cn/dhtv/playlist.m3u8?zjild",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2491,
+      "stale": true
+    },
+    {
+      "name": "浙江国际",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1953,
+      "stale": true
+    },
+    {
+      "name": "浙江经济生活",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2250,
+      "stale": true
+    },
+    {
+      "name": "龙华戏剧",
+      "url": "https://cdn8.163189.xyz/live/lhxj/stream.m3u8",
+      "ok": false,
+      "httpStatus": 200,
+      "kind": "html",
+      "ms": 2594,
+      "stale": true
+    },
+    {
+      "name": "伊犁维吾尔",
+      "url": "http://110.153.180.106:55555/out_2/index.m3u8?zxinjd",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 543,
+      "stale": true
+    },
+    {
+      "name": "可克达拉综合",
+      "url": "http://file.loulannews.cn/nmip-media/channellive/channel103824/playlist.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 1717,
+      "stale": true
+    },
+    {
+      "name": "辽宁都市",
+      "url": "http://120.76.248.139/live/bfgd/4200000610.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 557,
+      "stale": true
+    },
+    {
+      "name": "浙江经济",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 5465,
+      "stale": true
+    },
+    {
+      "name": "凤凰中文",
+      "url": "http://r.jdshipin.com/cCCzW",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 6079,
+      "stale": true
+    },
+    {
+      "name": "凤凰资讯",
+      "url": "http://r.jdshipin.com/0Rp07",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 5756,
+      "stale": true
+    },
+    {
+      "name": "福建旅游",
+      "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=8f26765ebf367079cef58c6b7752da1e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 1739,
+      "stale": true
+    },
+    {
+      "name": "辽宁公共",
+      "url": "http://120.76.248.139/live/bfgd/4200000077.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 574,
+      "stale": true
+    },
+    {
+      "name": "辽宁经济",
+      "url": "http://120.76.248.139/live/bfgd/4200000480.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 463,
+      "stale": true
+    },
+    {
+      "name": "ViuTV",
+      "url": "http://r.jdshipin.com/vSJvl",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 268,
+      "stale": true
+    },
+    {
+      "name": "华丽翡翠台",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=huali2",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 82,
+      "stale": true
+    },
+    {
+      "name": "明珠台",
+      "url": "http://r.jdshipin.com/ZQ4kN",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 283,
+      "stale": true
+    },
+    {
+      "name": "翡翠台",
+      "url": "http://r.jdshipin.com/GeWKr",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 258,
+      "stale": true
+    },
+    {
+      "name": "TVB星河",
+      "url": "http://r.jdshipin.com/Voac4",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 263,
+      "stale": true
+    },
+    {
+      "name": "笑傲江湖",
+      "url": "https://live.ottiptv.cc/huya/26355790",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 794,
+      "stale": true
+    },
+    {
+      "name": "纬来体育",
+      "url": "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 579,
+      "stale": true
+    },
+    {
+      "name": "贝爷求生",
+      "url": "http://www.goodiptv.club/douyu/9661369",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 3409,
+      "stale": true
+    },
+    {
+      "name": "中华小当家",
+      "url": "https://live.ottiptv.cc/huya/11342413",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 621,
+      "stale": true
+    },
+    {
+      "name": "TVB Plus",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=j2",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 2374,
+      "stale": true
+    },
+    {
+      "name": "仙剑奇侠传",
+      "url": "https://live.ottiptv.cc/yy/1382749903",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 2389,
+      "stale": true
+    },
+    {
+      "name": "伪装者",
+      "url": "https://live.ottiptv.cc/yy/1354936244",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 2598,
+      "stale": true
+    },
+    {
+      "name": "新白娘子传奇",
+      "url": "https://live.ottiptv.cc/yy/1354490667",
+      "ok": false,
+      "httpStatus": 404,
+      "kind": "unknown",
+      "ms": 1815,
+      "stale": true
+    },
+    {
+      "name": "欢乐颂",
+      "url": "https://live.ottiptv.cc/yy/1382735624",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 1380,
+      "stale": true
+    },
+    {
+      "name": "父母爱情",
+      "url": "https://live.ottiptv.cc/yy/1354926650",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 932,
+      "stale": true
+    },
+    {
+      "name": "西游记后传",
+      "url": "https://live.ottiptv.cc/yy/1353392400",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 1341,
+      "stale": true
+    },
+    {
+      "name": "谈判专家",
+      "url": "https://live.ottiptv.cc/yy/1382735560",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "hls",
+      "ms": 697,
+      "stale": true
+    },
+    {
+      "name": "隋唐英雄传",
+      "url": "https://live.ottiptv.cc/yy/1352475619",
+      "ok": true,
+      "httpStatus": 200,
+      "kind": "media",
+      "ms": 827,
+      "stale": true
     },
     {
       "name": "欢迎使用 iPTV for iFansClub.com",
