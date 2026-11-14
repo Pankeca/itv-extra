@@ -34,6 +34,10 @@ const targets = [
   ['/alive.m3u', 'alive.m3u'],
 ];
 
+// 防线：源被墙 / 大面积不可达时，条数会明显低于正常值（正常约 1651 / 1492）。
+// 低于阈值直接失败退出，避免把残缺快照提交上去覆盖线上。
+const MIN_ENTRIES = { 'list.m3u': 1200, 'alive.m3u': 900 };
+
 for (const [path, file] of targets) {
   const url = `https://itv3.940214.xyz${path}?refresh=1`;
   const res = await worker.fetch(new Request(url), {}, ctx);
@@ -41,6 +45,10 @@ for (const [path, file] of targets) {
   const text = await res.text();
   if (!text.startsWith('#EXTM3U')) throw new Error(`${path} 内容不是合法 m3u`);
   const count = (text.match(/^#EXTINF/gm) || []).length;
+  const min = MIN_ENTRIES[file];
+  if (min && count < min) {
+    throw new Error(`${file} 只有 ${count} 条（低于阈值 ${min}），疑似部分源不可达，已中止以免覆盖线上快照`);
+  }
   writeFileSync(resolve(outDir, file), text);
   console.log(`${file}: ${count} 条`);
 }
