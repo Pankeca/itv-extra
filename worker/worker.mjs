@@ -21,6 +21,10 @@ const STATUS_URL = 'https://raw.githubusercontent.com/Pankeca/itv-extra/main/sta
 
 const GROUPS = ['央视', '卫视', '地方', '港澳台', '点播', '其他', '海外'];
 const CACHE_SECONDS = 1800;
+// 两级缓存：L1 = 边缘内存（同机房最快），L2 = KV（跨机房共享，冷机房也能秒回）
+const L1_URL = 'https://itv-hub.internal/payload';
+const KV_KEY = 'payload:v3';
+const KV_TTL_SECONDS = 6 * 3600;
 // 同一频道最多输出几条线路（播放器里显示为同名多条，可手动切换）
 const MAX_LINES = 2;
 // 手机 Termux 中转源：稳定但占用上行带宽，同频道有直连线路时排后面
@@ -584,6 +588,54 @@ async function build() {
   return { m3u: full.text, aliveM3u: only.text, stats };
 }
 
+// ---------- 缓存 ----------
+function kvBinding(env) {
+  return env && env.ITV_CACHE ? env.ITV_CACHE : null;
+}
+
+async function kvRead(env) {
+  const kv = kvBinding(env);
+  if (!kv) return null;
+  try {
+    const got = await kv.getWithMetadata(KV_KEY, { type: 'json' });
+    if (!got || !got.value) return null;
+    return { payload: got.value, ts: Number((got.metadata && got.metadata.ts) || 0) };
+  } catch {
+    return null;
+  }
+}
+
+function kvWrite(env, payload) {
+  const kv = kvBinding(env);
+  if (!kv) return Promise.resolve();
+  return kv.put(KV_KEY, JSON.stringify(payload), {
+    expirationTtl: KV_TTL_SECONDS,
+    metadata: { ts: Date.now(), generatedAt: payload.stats.generatedAt },
+  }).catch(() => {});
+}
+
+async function l1Read() {
+  try {
+    const hit = await caches.default.match(new Request(L1_URL, { method: 'GET' }));
+    return hit ? await hit.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+function l1Write(payload) {
+  return caches.default.put(new Request(L1_URL, { method: 'GET' }), new Response(JSON.stringify(payload), {
+    headers: { 'Content-Type': 'application/json', 'Cache-Control': `max-age=${CACHE_SECONDS}` },
+  })).catch(() => {});
+}
+
+// 重建并同时刷新两级缓存
+async function rebuild(env) {
+  const payload = await build();
+  await Promise.all([kvWrite(env, payload), l1Write(payload)]);
+  return payload;
+}
+
 // ---------- 入口 ----------
 export default {
   async fetch(request, env, ctx) {
@@ -606,27 +658,37 @@ export default {
       }, null, 2), { headers: jsonHeaders });
     }
 
-    const cache = caches.default;
-    const cacheKey = new Request('https://itv-hub.internal/payload', { method: 'GET' });
-
-    let payload = null;
     const bypass = url.searchParams.get('refresh') === '1';
+    let payload = null;
+    let cacheState = 'MISS';
+
     if (!bypass) {
-      const hit = await cache.match(cacheKey);
-      if (hit) payload = await hit.json();
+      // L1：同机房内存缓存
+      payload = await l1Read();
+      if (payload) {
+        cacheState = 'HIT-L1';
+      } else {
+        // L2：KV 全局缓存（跨机房），过期数据先返回、后台重建
+        const kv = await kvRead(env);
+        if (kv) {
+          payload = kv.payload;
+          cacheState = 'HIT-KV';
+          if (Date.now() - kv.ts > CACHE_SECONDS * 1000) {
+            cacheState = 'HIT-KV-STALE';
+            ctx.waitUntil(rebuild(env).catch(() => {}));
+          }
+        }
+      }
     }
+
     if (!payload) {
       payload = await build();
-      ctx.waitUntil(
-        cache.put(cacheKey, new Response(JSON.stringify(payload), {
-          headers: { 'Content-Type': 'application/json', 'Cache-Control': `max-age=${CACHE_SECONDS}` },
-        }))
-      );
+      ctx.waitUntil(Promise.all([kvWrite(env, payload), l1Write(payload)]).catch(() => {}));
     }
 
     if (url.pathname === '/stats') {
-      return new Response(JSON.stringify(payload.stats, null, 2), {
-        headers: { 'Content-Type': 'application/json; charset=utf-8', 'Access-Control-Allow-Origin': '*' },
+      return new Response(JSON.stringify({ ...payload.stats, cache: cacheState }, null, 2), {
+        headers: { 'Content-Type': 'application/json; charset=utf-8', 'Access-Control-Allow-Origin': '*', 'X-Cache': cacheState },
       });
     }
 
@@ -638,7 +700,14 @@ export default {
         'Content-Type': 'application/vnd.apple.mpegurl; charset=utf-8',
         'Access-Control-Allow-Origin': '*',
         'Cache-Control': `public, max-age=${CACHE_SECONDS}`,
+        'X-Cache': cacheState,
       },
     });
+  },
+
+  // 定时预热（wrangler.toml 里配置 crons）：每 30 分钟重建一次写入 KV，
+  // 让任何机房的首次请求都能直接命中缓存，不必现场聚合 9 个源。
+  async scheduled(event, env, ctx) {
+    await rebuild(env);
   },
 };
