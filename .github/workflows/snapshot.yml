@@ -1,6 +1,6 @@
 name: snapshot
 
-# 每日把 Cloudflare Worker 的聚合结果落成静态文件，供 EdgeOne Pages 托管镜像
+# 每日用 worker/worker.mjs 现场聚合，生成静态 m3u，供 EdgeOne Pages 托管镜像
 on:
   schedule:
     - cron: '0 4 * * *' # UTC 04:00 = 北京时间 12:00，错开 02:00 的线路探测
@@ -9,6 +9,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/snapshot.yml'
+      - 'monitor/snapshot.mjs'
+      - 'worker/worker.mjs'
 
 concurrency:
   group: snapshot
@@ -24,20 +26,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch lists from worker
-        run: |
-          set -euo pipefail
-          mkdir -p public
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-          curl -fsSL -A "$UA" --retry 3 --retry-delay 5 --max-time 180 \
-            "https://itv3.940214.xyz/list.m3u?refresh=1" -o public/list.m3u
-          curl -fsSL -A "$UA" --retry 3 --retry-delay 5 --max-time 180 \
-            "https://itv3.940214.xyz/alive.m3u?refresh=1" -o public/alive.m3u
-          # 基本校验，避免把错误页提交上去
-          grep -q '^#EXTM3U' public/list.m3u
-          grep -q '^#EXTM3U' public/alive.m3u
-          echo "list channels: $(grep -c '^#EXTINF' public/list.m3u)"
-          echo "alive channels: $(grep -c '^#EXTINF' public/alive.m3u)"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build snapshot
+        run: node monitor/snapshot.mjs
 
       - name: Commit snapshot
         run: |
