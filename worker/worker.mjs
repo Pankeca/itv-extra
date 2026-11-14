@@ -6,7 +6,6 @@
 
 const SOURCES = [
   // 优先级越小越靠前，去重时保留优先级高的那条
-  { name: 'phone-itv2', url: 'https://itv2.940214.xyz/tv9402/interface.m3u', priority: 0 },
   { name: 'extra-itv', url: 'https://raw.githubusercontent.com/Pankeca/itv-extra/main/extra.m3u', priority: 1 },
   { name: 'pages-itv', url: 'https://itv.940214.xyz/result.m3u', priority: 2 },
   { name: 'collect-iptv', url: 'https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u', priority: 4 },
