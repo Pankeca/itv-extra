@@ -1,0 +1,52 @@
+name: snapshot
+
+# 每日把 Cloudflare Worker 的聚合结果落成静态文件，供 EdgeOne Pages 托管镜像
+on:
+  schedule:
+    - cron: '0 4 * * *' # UTC 04:00 = 北京时间 12:00，错开 02:00 的线路探测
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/snapshot.yml'
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch lists from worker
+        run: |
+          set -euo pipefail
+          mkdir -p public
+          curl -fsSL --retry 3 --retry-delay 5 --max-time 180 \
+            "https://itv3.940214.xyz/list.m3u?refresh=1" -o public/list.m3u
+          curl -fsSL --retry 3 --retry-delay 5 --max-time 180 \
+            "https://itv3.940214.xyz/alive.m3u?refresh=1" -o public/alive.m3u
+          # 基本校验，避免把错误页提交上去
+          grep -q '^#EXTM3U' public/list.m3u
+          grep -q '^#EXTM3U' public/alive.m3u
+          echo "list channels: $(grep -c '^#EXTINF' public/list.m3u)"
+          echo "alive channels: $(grep -c '^#EXTINF' public/alive.m3u)"
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public
+          if git diff --staged --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "chore(snapshot): $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
